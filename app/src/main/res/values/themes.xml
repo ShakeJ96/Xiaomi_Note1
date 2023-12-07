@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="Theme.Notes1" parent="Theme.AppCompat.Light" />
+
+    <style name="Theme.Notes1.Fullscreen" parent="Theme.Notes1">
+        <item name="android:actionBarStyle">@style/Widget.Theme.Notes1.ActionBar.Fullscreen</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="ThemeOverlay.Notes1.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/black_overlay</item>
+    </style>
+</resources>
