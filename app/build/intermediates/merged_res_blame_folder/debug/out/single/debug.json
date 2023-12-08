@@ -392,6 +392,10 @@
         "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\folder_list_item.xml"
     },
     {
+        "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\merged_res\\debug\\raw_testmusic.wav.flat",
+        "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\raw\\testmusic.wav"
+    },
+    {
         "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_list_yellow_middle.9.png.flat",
         "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\drawable-hdpi\\list_yellow_middle.9.png"
     },

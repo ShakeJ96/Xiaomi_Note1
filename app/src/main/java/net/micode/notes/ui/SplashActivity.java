@@ -2,6 +2,7 @@ package net.micode.notes.ui;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
@@ -12,15 +13,21 @@ import net.micode.notes.R;
 import net.micode.notes.ui.NotesListActivity;
 
 public class SplashActivity extends AppCompatActivity {
-    private static final int ANIMATION_DURATION = 1500; // 动画持续时间，单位为毫秒
-    private static final int SPLASH_DURATION = 2000; // 欢迎页展示时间，单位为毫秒
+    private static final int ANIMATION_DURATION = 5000; // 动画持续时间，单位为毫秒
+    private static final int SPLASH_DURATION = 5500; // 欢迎页展示时间，单位为毫秒
 
     private Handler mHandler = new Handler();
+    private MediaPlayer mMediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+
+
+        // 创建 MediaPlayer 对象，并指定要播放的音频文件
+        playAudio(R.raw.testmusic);
+
 
         // 获取 TextView 的引用
         TextView textView = findViewById(R.id.fullscreen_content);
@@ -36,10 +43,34 @@ public class SplashActivity extends AppCompatActivity {
         mHandler.postDelayed(new Runnable() {
             @Override
             public void run() {
+
+                // 在 Activity 销毁时停止播放音频并释放 MediaPlayer 资源
+                if (mMediaPlayer != null) {
+                    mMediaPlayer.stop();
+                    mMediaPlayer.release();
+                    mMediaPlayer = null;
+                }
+
                 Intent intent = new Intent(SplashActivity.this, NotesListActivity.class);
                 startActivity(intent);
                 finish(); // 销毁欢迎页
             }
         }, SPLASH_DURATION);
     }
+    //测试音频BGM
+    private void playAudio(int audioResId) {
+        // 创建 MediaPlayer 对象，并指定要播放的音频文件
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, audioResId);
+        // 开始播放音频
+        mediaPlayer.start();
+        // 在播放完成后停止播放并释放资源
+        mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                mediaPlayer.stop();
+                mediaPlayer.release();
+            }
+        });
+    }
+
 }

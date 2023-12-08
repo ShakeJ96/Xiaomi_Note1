@@ -24,6 +24,10 @@
         android:icon="@drawable/icon_app"
         android:label="@string/app_name"
         android:testOnly="true" >
+        <service
+            android:name="net.micode.notes.MyIntentService"
+            android:exported="false" />
+
         <activity
             android:name="net.micode.notes.ui.SplashActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -41,8 +45,7 @@
             android:launchMode="singleTop"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
             android:uiOptions="splitActionBarWhenNarrow"
-            android:windowSoftInputMode="adjustPan" >
-        </activity>
+            android:windowSoftInputMode="adjustPan" />
         <activity
             android:name="net.micode.notes.ui.NoteEditActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
@@ -116,26 +119,22 @@
         </receiver>
         <receiver
             android:name="net.micode.notes.ui.AlarmReceiver"
-            android:process=":remote" >
-        </receiver>
+            android:process=":remote" />
 
         <activity
             android:name="net.micode.notes.ui.AlarmAlertActivity"
             android:label="@string/app_name"
             android:launchMode="singleInstance"
-            android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar" >
-        </activity>
+            android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar" />
         <activity
             android:name="net.micode.notes.ui.NotesPreferenceActivity"
             android:label="@string/preferences_title"
             android:launchMode="singleTop"
-            android:theme="@android:style/Theme.Holo.Light" >
-        </activity>
+            android:theme="@android:style/Theme.Holo.Light" />
 
         <service
             android:name="net.micode.notes.gtask.remote.GTaskSyncService"
-            android:exported="false" >
-        </service>
+            android:exported="false" />
 
         <meta-data
             android:name="android.app.default_searchable"

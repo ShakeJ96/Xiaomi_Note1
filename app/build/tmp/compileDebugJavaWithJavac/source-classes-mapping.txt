@@ -43,6 +43,40 @@ net/micode/notes/gtask/remote/GTaskSyncService.java
  net.micode.notes.gtask.remote.GTaskSyncService$1
 net/micode/notes/gtask/data/Node.java
  net.micode.notes.gtask.data.Node
+net/micode/notes/ui/NotesListActivity.java
+ net.micode.notes.ui.NotesListActivity
+ net.micode.notes.ui.NotesListActivity$1
+ net.micode.notes.ui.NotesListActivity$10
+ net.micode.notes.ui.NotesListActivity$11
+ net.micode.notes.ui.NotesListActivity$12
+ net.micode.notes.ui.NotesListActivity$13
+ net.micode.notes.ui.NotesListActivity$2
+ net.micode.notes.ui.NotesListActivity$3
+ net.micode.notes.ui.NotesListActivity$4
+ net.micode.notes.ui.NotesListActivity$5
+ net.micode.notes.ui.NotesListActivity$6
+ net.micode.notes.ui.NotesListActivity$7
+ net.micode.notes.ui.NotesListActivity$8
+ net.micode.notes.ui.NotesListActivity$9
+ net.micode.notes.ui.NotesListActivity$BackgroundQueryHandler
+ net.micode.notes.ui.NotesListActivity$ListEditState
+ net.micode.notes.ui.NotesListActivity$ModeCallback
+ net.micode.notes.ui.NotesListActivity$ModeCallback$1
+ net.micode.notes.ui.NotesListActivity$ModeCallback$2
+ net.micode.notes.ui.NotesListActivity$NewNoteOnTouchListener
+ net.micode.notes.ui.NotesListActivity$OnListItemClickListener
+net/micode/notes/databinding/DialogEditTextBinding.java
+ net.micode.notes.databinding.DialogEditTextBinding
+net/micode/notes/databinding/NoteListBinding.java
+ net.micode.notes.databinding.NoteListBinding
+net/micode/notes/databinding/AddAccountTextBinding.java
+ net.micode.notes.databinding.AddAccountTextBinding
+net/micode/notes/ui/LoginActivity.java
+ net.micode.notes.ui.LoginActivity
+net/micode/notes/ui/NoteItemData.java
+ net.micode.notes.ui.NoteItemData
+net/micode/notes/gtask/exception/ActionFailureException.java
+ net.micode.notes.gtask.exception.ActionFailureException
 net/micode/notes/ui/NoteEditActivity.java
  net.micode.notes.ui.NoteEditActivity
  net.micode.notes.ui.NoteEditActivity$1
@@ -52,20 +86,6 @@ net/micode/notes/ui/NoteEditActivity.java
  net.micode.notes.ui.NoteEditActivity$5
  net.micode.notes.ui.NoteEditActivity$6
  net.micode.notes.ui.NoteEditActivity$HeadViewHolder
-net/micode/notes/databinding/DialogEditTextBinding.java
- net.micode.notes.databinding.DialogEditTextBinding
-net/micode/notes/databinding/NoteListBinding.java
- net.micode.notes.databinding.NoteListBinding
-net/micode/notes/databinding/AddAccountTextBinding.java
- net.micode.notes.databinding.AddAccountTextBinding
-net/micode/notes/ui/LoginActivity.java
- net.micode.notes.ui.LoginActivity
-net/micode/notes/gtask/data/SqlData.java
- net.micode.notes.gtask.data.SqlData
-net/micode/notes/gtask/exception/ActionFailureException.java
- net.micode.notes.gtask.exception.ActionFailureException
-net/micode/notes/databinding/SettingsHeaderBinding.java
- net.micode.notes.databinding.SettingsHeaderBinding
 net/micode/notes/databinding/NoteListDropdownMenuBinding.java
  net.micode.notes.databinding.NoteListDropdownMenuBinding
 net/micode/notes/ui/DateTimePicker.java
@@ -85,15 +105,15 @@ net/micode/notes/gtask/remote/GTaskManager.java
  net.micode.notes.gtask.remote.GTaskManager
 net/micode/notes/gtask/remote/GTaskClient.java
  net.micode.notes.gtask.remote.GTaskClient
-net/micode/notes/databinding/FolderListItemBinding.java
- net.micode.notes.databinding.FolderListItemBinding
+net/micode/notes/ui/AlarmAlertActivity.java
+ net.micode.notes.ui.AlarmAlertActivity
 net/micode/notes/tool/BackupUtils.java
  net.micode.notes.tool.BackupUtils
  net.micode.notes.tool.BackupUtils$TextExport
 net/micode/notes/databinding/NoteEditListItemBinding.java
  net.micode.notes.databinding.NoteEditListItemBinding
-net/micode/notes/data/Contact.java
- net.micode.notes.data.Contact
+net/micode/notes/widget/NoteWidgetProvider.java
+ net.micode.notes.widget.NoteWidgetProvider
 net/micode/notes/ui/DateTimePickerDialog.java
  net.micode.notes.ui.DateTimePickerDialog
  net.micode.notes.ui.DateTimePickerDialog$1
@@ -149,34 +169,15 @@ net/micode/notes/databinding/AccountDialogTitleBinding.java
  net.micode.notes.databinding.AccountDialogTitleBinding
 net/micode/notes/databinding/DatetimePickerBinding.java
  net.micode.notes.databinding.DatetimePickerBinding
-net/micode/notes/ui/AlarmAlertActivity.java
- net.micode.notes.ui.AlarmAlertActivity
-net/micode/notes/ui/NoteItemData.java
- net.micode.notes.ui.NoteItemData
-net/micode/notes/widget/NoteWidgetProvider.java
- net.micode.notes.widget.NoteWidgetProvider
-net/micode/notes/ui/NotesListActivity.java
- net.micode.notes.ui.NotesListActivity
- net.micode.notes.ui.NotesListActivity$1
- net.micode.notes.ui.NotesListActivity$10
- net.micode.notes.ui.NotesListActivity$11
- net.micode.notes.ui.NotesListActivity$12
- net.micode.notes.ui.NotesListActivity$13
- net.micode.notes.ui.NotesListActivity$2
- net.micode.notes.ui.NotesListActivity$3
- net.micode.notes.ui.NotesListActivity$4
- net.micode.notes.ui.NotesListActivity$5
- net.micode.notes.ui.NotesListActivity$6
- net.micode.notes.ui.NotesListActivity$7
- net.micode.notes.ui.NotesListActivity$8
- net.micode.notes.ui.NotesListActivity$9
- net.micode.notes.ui.NotesListActivity$BackgroundQueryHandler
- net.micode.notes.ui.NotesListActivity$ListEditState
- net.micode.notes.ui.NotesListActivity$ModeCallback
- net.micode.notes.ui.NotesListActivity$ModeCallback$1
- net.micode.notes.ui.NotesListActivity$ModeCallback$2
- net.micode.notes.ui.NotesListActivity$NewNoteOnTouchListener
- net.micode.notes.ui.NotesListActivity$OnListItemClickListener
+net/micode/notes/databinding/SettingsHeaderBinding.java
+ net.micode.notes.databinding.SettingsHeaderBinding
+net/micode/notes/databinding/FolderListItemBinding.java
+ net.micode.notes.databinding.FolderListItemBinding
+net/micode/notes/data/Contact.java
+ net.micode.notes.data.Contact
+net/micode/notes/gtask/data/SqlData.java
+ net.micode.notes.gtask.data.SqlData
 net/micode/notes/ui/SplashActivity.java
  net.micode.notes.ui.SplashActivity
  net.micode.notes.ui.SplashActivity$1
+ net.micode.notes.ui.SplashActivity$2

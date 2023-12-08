@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:1-143:12
-INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:1-143:12
-INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:1-143:12
-INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:1-143:12
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:1-140:12
+INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:1-140:12
+INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:1-140:12
+INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:1-140:12
 MERGED from [com.android.databinding:viewbinding:7.0.2] C:\Users\86136\.gradle\caches\transforms-3\391857fb9ecfdd92c27997809d9092e8\transformed\viewbinding-7.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\8fd11623966bb0584e113cba6c369170\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\01ce58cb5dec02ff2dcf5e31777eb70a\transformed\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
@@ -31,9 +31,9 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\86136\.gradle\cache
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\86136\.gradle\caches\transforms-3\3d30d1dfc52eef7a30e76658177aa636\transformed\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\86136\.gradle\caches\transforms-3\9144f778eb61599c0354b3e5bd6c8d2f\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\00c853c6be18376f60855f1362b85a1c\transformed\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:1-143:12
-INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:1-143:12
-INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:1-143:12
+INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:1-140:12
+INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:1-140:12
+INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:1-140:12
 	package
 		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:4:5-31
 		INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml
@@ -155,7 +155,7 @@ ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:18:5-81
 	android:name
 		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:18:22-78
 application
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:20:5-141:19
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:20:5-138:19
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\5d596afbbf514aaec8702eb472ca97f3\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
@@ -166,142 +166,148 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\86136\.gra
 		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:22:9-41
 	android:icon
 		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:21:9-42
+service#net.micode.notes.MyIntentService
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:23:9-25:48
+	android:exported
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:24:13-44
 activity#net.micode.notes.ui.SplashActivity
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:24:9-33:20
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:27:9-36:20
 	android:configChanges
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:26:13-74
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:29:13-74
 	android:theme
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:27:13-59
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:30:13-59
 	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:25:13-46
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:28:13-46
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:28:13-32:29
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:29:17-69
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:29:25-66
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:31:17-77
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:31:27-74
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:34:27-74
 activity#net.micode.notes.ui.NotesListActivity
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:34:9-42:20
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:37:9-44:64
 	android:label
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:37:13-45
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:40:13-45
 	android:launchMode
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:38:13-43
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:41:13-43
 	android:windowSoftInputMode
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:41:13-52
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:44:13-52
 	android:uiOptions
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:40:13-57
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:43:13-57
 	android:configChanges
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:36:13-74
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:39:13-74
 	android:theme
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:39:13-71
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:42:13-71
 	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:35:13-49
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:38:13-49
 activity#net.micode.notes.ui.NoteEditActivity
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:43:9-77:20
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:45:9-78:20
 	android:launchMode
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:46:13-43
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:48:13-43
 	android:configChanges
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:45:13-74
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:47:13-74
 	android:theme
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:47:13-71
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:49:13-71
 	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:44:13-48
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:46:13-48
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.item/call_note+data:mimeType:vnd.android.cursor.item/text_note
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:50:13-58:29
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:53:13-60:29
 	tools:ignore
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:51:17-47
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:53:28-58
 action#android.intent.action.VIEW
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:52:17-69
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:54:17-69
 	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:52:25-66
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:54:25-66
 category#android.intent.category.DEFAULT
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:54:17-76
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:56:17-76
 	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:54:27-73
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:56:27-73
 data
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:56:17-78
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:58:17-78
 	android:mimeType
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:56:23-75
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:58:23-75
 intent-filter#action:name:android.intent.action.INSERT_OR_EDIT+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.item/call_note+data:mimeType:vnd.android.cursor.item/text_note
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:60:13-67:29
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:61:13-68:29
 action#android.intent.action.INSERT_OR_EDIT
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:61:17-79
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:62:17-79
 	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:61:25-76
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:62:25-76
 intent-filter#action:name:android.intent.action.SEARCH+category:name:android.intent.category.DEFAULT
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:68:13-72:29
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:69:13-73:29
 action#android.intent.action.SEARCH
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:69:17-71
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:70:17-71
 	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:69:25-68
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:70:25-68
 meta-data#android.app.searchable
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:74:13-76:54
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:75:13-77:54
 	android:resource
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:76:17-51
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:77:17-51
 	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:75:17-54
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:76:17-54
 provider#net.micode.notes.data.NotesProvider
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:79:9-82:43
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:80:9-83:43
 	android:authorities
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:81:13-47
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:82:13-47
 	android:multiprocess
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:82:13-40
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:83:13-40
 	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:80:13-47
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:81:13-47
 receiver#net.micode.notes.widget.NoteWidgetProvider_2x
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:84:9-96:20
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:85:9-97:20
 	android:label
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:86:13-50
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:87:13-50
 	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:85:13-57
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:86:13-57
 intent-filter#action:name:android.appwidget.action.APPWIDGET_DELETED+action:name:android.appwidget.action.APPWIDGET_UPDATE+action:name:android.intent.action.PRIVACY_MODE_CHANGED
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:87:13-91:29
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:88:13-92:29
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:88:17-84
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:89:17-84
 	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:88:25-81
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:89:25-81
 action#android.appwidget.action.APPWIDGET_DELETED
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:89:17-85
-	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:89:25-82
-action#android.intent.action.PRIVACY_MODE_CHANGED
 ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:90:17-85
 	android:name
 		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:90:25-82
+action#android.intent.action.PRIVACY_MODE_CHANGED
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:91:17-85
+	android:name
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:91:25-82
 meta-data#android.appwidget.provider
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:93:13-95:58
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:94:13-96:58
 	android:resource
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:95:17-55
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:96:17-55
 	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:94:17-58
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:95:17-58
 receiver#net.micode.notes.widget.NoteWidgetProvider_4x
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:97:9-109:20
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:98:9-110:20
 	android:label
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:99:13-50
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:100:13-50
 	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:98:13-57
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:99:13-57
 receiver#net.micode.notes.ui.AlarmInitReceiver
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:110:9-114:20
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:111:9-115:20
 	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:110:19-55
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:111:19-55
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:111:13-113:29
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:112:13-114:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:112:17-79
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:113:17-79
 	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:112:25-76
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:113:25-76
 receiver#net.micode.notes.ui.AlarmReceiver
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:115:9-118:20
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:116:9-118:50
 	android:process
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:117:13-38
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:118:13-38
 	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:116:13-45
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:117:13-45
 activity#net.micode.notes.ui.AlarmAlertActivity
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:120:9-125:20
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:120:9-124:87
 	android:label
 		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:122:13-45
 	android:launchMode
@@ -311,24 +317,24 @@ ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:120:9-125
 	android:name
 		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:121:13-50
 activity#net.micode.notes.ui.NotesPreferenceActivity
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:126:9-131:20
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:125:9-129:72
 	android:label
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:128:13-54
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:127:13-54
 	android:launchMode
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:129:13-43
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:128:13-43
 	android:theme
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:130:13-60
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:129:13-60
 	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:127:13-55
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:126:13-55
 service#net.micode.notes.gtask.remote.GTaskSyncService
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:133:9-136:19
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:131:9-133:48
 	android:exported
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:135:13-37
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:133:13-37
 	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:134:13-58
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:132:13-58
 meta-data#android.app.default_searchable
-ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:138:9-140:52
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:135:9-137:52
 	android:value
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:140:13-49
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:137:13-49
 	android:name
-		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:139:13-58
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:136:13-58
