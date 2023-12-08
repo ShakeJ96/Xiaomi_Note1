@@ -26,7 +26,7 @@ public class SplashActivity extends AppCompatActivity {
 
 
         // 创建 MediaPlayer 对象，并指定要播放的音频文件
-        playAudio(R.raw.testmusic);
+//        playAudio(R.raw.testmusic);
 
 
         // 获取 TextView 的引用
