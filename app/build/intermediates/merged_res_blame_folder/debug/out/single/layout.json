@@ -4,12 +4,12 @@
         "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\note_list_dropdown_menu.xml"
     },
     {
-        "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\account_dialog_title.xml",
-        "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\account_dialog_title.xml"
-    },
-    {
         "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\note_list.xml",
         "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\note_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\account_dialog_title.xml",
+        "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\account_dialog_title.xml"
     },
     {
         "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\datetime_picker.xml",

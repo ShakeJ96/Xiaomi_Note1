@@ -411,14 +411,14 @@
         </FrameLayout>
     </LinearLayout>
 
-    <ImageButton
-        android:id="@+id/add_img_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="7dp"
-        android:layout_marginTop="7dp"
-        android:layout_marginBottom="600dp"
-        android:src="@android:drawable/ic_menu_gallery" />
+<!--    <ImageButton-->
+<!--        android:id="@+id/add_img_btn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginRight="7dp"-->
+<!--        android:layout_marginTop="7dp"-->
+<!--        android:layout_marginBottom="600dp"-->
+<!--        android:src="@android:drawable/ic_menu_gallery" />-->
 
     <!--字数统计-->
     <TextView

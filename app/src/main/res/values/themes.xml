@@ -9,7 +9,7 @@
     </style>
 
     <style name="ThemeOverlay.Notes1.FullscreenContainer" parent="">
-        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenBackgroundColor">#ffffff</item>
         <item name="fullscreenTextColor">@color/black_overlay</item>
     </style>
 </resources>

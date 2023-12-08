@@ -9,7 +9,6 @@ import android.view.ViewGroup;
 import android.viewbinding.ViewBinding;
 import android.viewbinding.ViewBindings;
 import android.widget.FrameLayout;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -22,9 +21,6 @@ import net.micode.notes.ui.NoteEditText;
 public final class NoteEditBinding implements ViewBinding {
   @NonNull
   private final FrameLayout rootView;
-
-  @NonNull
-  public final ImageButton addImgBtn;
 
   @NonNull
   public final ImageView btnSetBgColor;
@@ -113,10 +109,9 @@ public final class NoteEditBinding implements ViewBinding {
   @NonNull
   public final TextView tvModifiedDate;
 
-  private NoteEditBinding(@NonNull FrameLayout rootView, @NonNull ImageButton addImgBtn,
-      @NonNull ImageView btnSetBgColor, @NonNull LinearLayout fontSizeSelector,
-      @NonNull ImageView ivAlertIcon, @NonNull ImageView ivBgBlue,
-      @NonNull ImageView ivBgBlueSelect, @NonNull ImageView ivBgGreen,
+  private NoteEditBinding(@NonNull FrameLayout rootView, @NonNull ImageView btnSetBgColor,
+      @NonNull LinearLayout fontSizeSelector, @NonNull ImageView ivAlertIcon,
+      @NonNull ImageView ivBgBlue, @NonNull ImageView ivBgBlueSelect, @NonNull ImageView ivBgGreen,
       @NonNull ImageView ivBgGreenSelect, @NonNull ImageView ivBgRed,
       @NonNull ImageView ivBgRedSelect, @NonNull ImageView ivBgWhite,
       @NonNull ImageView ivBgWhiteSelect, @NonNull ImageView ivBgYellow,
@@ -129,7 +124,6 @@ public final class NoteEditBinding implements ViewBinding {
       @NonNull LinearLayout noteTitle, @NonNull LinearLayout svNoteEdit, @NonNull TextView textNum,
       @NonNull TextView tvAlertDate, @NonNull TextView tvModifiedDate) {
     this.rootView = rootView;
-    this.addImgBtn = addImgBtn;
     this.btnSetBgColor = btnSetBgColor;
     this.fontSizeSelector = fontSizeSelector;
     this.ivAlertIcon = ivAlertIcon;
@@ -188,12 +182,6 @@ public final class NoteEditBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.add_img_btn;
-      ImageButton addImgBtn = ViewBindings.findChildViewById(rootView, id);
-      if (addImgBtn == null) {
-        break missingId;
-      }
-
       id = R.id.btn_set_bg_color;
       ImageView btnSetBgColor = ViewBindings.findChildViewById(rootView, id);
       if (btnSetBgColor == null) {
@@ -368,7 +356,7 @@ public final class NoteEditBinding implements ViewBinding {
         break missingId;
       }
 
-      return new NoteEditBinding((FrameLayout) rootView, addImgBtn, btnSetBgColor, fontSizeSelector,
+      return new NoteEditBinding((FrameLayout) rootView, btnSetBgColor, fontSizeSelector,
           ivAlertIcon, ivBgBlue, ivBgBlueSelect, ivBgGreen, ivBgGreenSelect, ivBgRed, ivBgRedSelect,
           ivBgWhite, ivBgWhiteSelect, ivBgYellow, ivBgYellowSelect, ivLargeSelect, ivMediumSelect,
           ivSmallSelect, ivSuperSelect, llFontLarge, llFontNormal, llFontSmall, llFontSuper,

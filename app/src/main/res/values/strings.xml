@@ -138,7 +138,7 @@
 
     <string name="title_activity_fullscreen" translatable="false">FullscreenActivity</string>
     <string name="dummy_button" translatable="false">Dummy Button</string>
-    <string name="dummy_content" translatable="false">小米便签！启动！</string>
+    <string name="dummy_content" translatable="false">  便签启动！</string>
     <string name="title_activity_login" translatable="false">LoginActivity</string>
     <string name="prompt_email" translatable="false">Email</string>
     <string name="prompt_password" translatable="false">Password</string>

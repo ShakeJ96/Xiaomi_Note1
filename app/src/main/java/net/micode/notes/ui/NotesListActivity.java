@@ -883,6 +883,11 @@ public class NotesListActivity extends AppCompatActivity implements OnClickListe
                 break;
 
             case R.id.menu_secret: {    //进入私密模式
+                //TODO
+                /**
+                 *
+                 */
+
                 AlertDialog.Builder dialog = new AlertDialog.Builder(NotesListActivity.this);
                 dialog.setTitle("重要提醒");
                 dialog.setMessage("您确认进入私密模式吗？");
@@ -929,6 +934,7 @@ public class NotesListActivity extends AppCompatActivity implements OnClickListe
                 });
                 dialog.show();
 
+                //TODO
                 break;
             }
 

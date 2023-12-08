@@ -42,12 +42,15 @@ import android.provider.DocumentsContract;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
+import android.text.Layout;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.text.format.DateUtils;
+import android.text.style.AlignmentSpan;
 import android.text.style.BackgroundColorSpan;
+import android.text.style.ClickableSpan;
 import android.text.style.ImageSpan;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -417,6 +420,8 @@ public class NoteEditActivity extends AppCompatActivity implements OnClickListen
         convertToImage();
     }
 
+
+
     private void showAlertHeader() {
         if (mWorkingNote.hasClockAlert()) {
             long time = System.currentTimeMillis();
@@ -434,46 +439,98 @@ public class NoteEditActivity extends AppCompatActivity implements OnClickListen
         };
     }
 
-    //路径字符串格式 转换为 图片image格式
     private void convertToImage() {
-        NoteEditText noteEditText = (NoteEditText) findViewById(R.id.note_edit_view); //获取当前的edit
-        Editable editable = noteEditText.getText();//1.获取text
-        String noteText = editable.toString(); //2.将note内容转换为字符串
-        int length = editable.length(); //内容的长度
-        //3.截取img片段 [local]+uri+[local]，提取uri
-        for(int i = 0; i < length; i++) {
-            for(int j = i; j < length; j++) {
-                String img_fragment = noteText.substring(i, j+1); //img_fragment：关于图片路径的片段
-                if(img_fragment.length() > 15 && img_fragment.endsWith("[/local]") && img_fragment.startsWith("[local]")){
-                    int limit = 7;  //[local]为7个字符
-                    //[local][/local]共15个字符，剩下的为真正的path长度
-                    int len = img_fragment.length()-15;
-                    //从[local]之后的len个字符就是path
-                    String path = img_fragment.substring(limit,limit+len);//获取到了图片路径
-                    Bitmap bitmap = null;
-                    Log.d(TAG, "图片的路径是："+path);
-                    try {
-                        bitmap = BitmapFactory.decodeFile(path);//将图片路径解码为图片格式
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                    if(bitmap!=null){  //若图片存在
-                        Log.d(TAG, "图片不为null");
-                        ImageSpan imageSpan = new ImageSpan(NoteEditActivity.this, bitmap);
-                        //4.创建一个SpannableString对象，以便插入用ImageSpan对象封装的图像
+        NoteEditText noteEditText = findViewById(R.id.note_edit_view);
+        Editable editable = noteEditText.getEditableText();
+
+        String noteText = editable.toString();
+        int length = editable.length();
+
+        int cursorPositionBeforeInsert = noteEditText.getSelectionStart();
+        // 在光标位置插入换行符
+
+        noteEditText.setSelection(length);
+
+        boolean inserted = false;
+        for (int i = 0; i < length; i++) {
+            for (int j = i; j < length; j++) {
+                String img_fragment = noteText.substring(i, j + 1);
+                if (img_fragment.length() > 15 && img_fragment.endsWith("[/local]") && img_fragment.startsWith("[local]")) {
+                    int limit = 7;
+                    int len = img_fragment.length() - 15;
+                    String path = img_fragment.substring(limit, limit + len);
+                    Bitmap bitmap = BitmapFactory.decodeFile(path);
+                    if (bitmap != null) {
+                        int desiredHeight = 2000;
+                        int originalWidth = bitmap.getWidth();
+                        int originalHeight = bitmap.getHeight();
+                        int desiredWidth = (originalWidth * desiredHeight) / originalHeight;
+
+                        Bitmap scaledBitmap = Bitmap.createScaledBitmap(bitmap, desiredWidth, desiredHeight, false);
+
+                        ImageSpan imageSpan = new ImageSpan(this, scaledBitmap);
                         String ss = "[local]" + path + "[/local]";
                         SpannableString spannableString = new SpannableString(ss);
-                        //5.将指定的标记对象附加到文本的开始...结束范围
+                        spannableString.setSpan(new AlignmentSpan.Standard(Layout.Alignment.ALIGN_CENTER), 0, ss.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE); // 设置居中对齐
                         spannableString.setSpan(imageSpan, 0, ss.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-                        Log.d(TAG, "Create spannable string success!");
-                        Editable edit_text = noteEditText.getEditableText();
-                        edit_text.delete(i,i+len+15); //6.删掉图片路径的文字
-                        edit_text.insert(i, spannableString); //7.在路径的起始位置插入图片
+
+                        // 添加ClickableSpan，使得点击图片末尾的光标可以和图片对齐
+                        ClickableSpan clickableSpan = new ClickableSpan() {
+                            @Override
+                            public void onClick(View view) {
+                                int selectionEnd = noteEditText.getSelectionEnd();
+                                if (selectionEnd == cursorPositionBeforeInsert) {
+                                    noteEditText.setSelection(cursorPositionBeforeInsert + 1);
+                                }
+                            }
+                        };
+                        spannableString.setSpan(clickableSpan, ss.length(), ss.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+                        editable.replace(i, i + len + 15, spannableString);
+
+                        inserted = true;
+                        noteEditText.setSelection(cursorPositionBeforeInsert);
+
+                        ClickableSpan[] spans = editable.getSpans(cursorPositionBeforeInsert, cursorPositionBeforeInsert, ClickableSpan.class);
+                        if (spans != null && spans.length > 0) {
+                            for (ClickableSpan span : spans) {
+                                editable.removeSpan(span);
+                            }
+                        }
                     }
                 }
             }
         }
+
+        if (inserted) {
+            editable.append("\n");
+            // 在插入图片后为NoteEditText设置触摸事件监听器
+            noteEditText.setOnTouchListener(new View.OnTouchListener() {
+                @Override
+                public boolean onTouch(View v, MotionEvent event) {
+                    int action = event.getAction();
+                    if (action == MotionEvent.ACTION_DOWN) {
+                        int offset = noteEditText.getOffsetForPosition(event.getX(), event.getY());
+                        ImageSpan[] imageSpans = editable.getSpans(0, editable.length(), ImageSpan.class);
+                        for (ImageSpan span : imageSpans) {
+                            int start = editable.getSpanStart(span);
+                            int end = editable.getSpanEnd(span);
+                            if (offset >= start && offset <= end) {
+                                // 如果光标位于图片所在行，返回true，表示消费了该事件
+                                return true;
+                            }
+                        }
+                    }
+                    return false;
+                }
+            });
+
+        }
     }
+
+
+
+
 
 
     @Override
@@ -1150,6 +1207,7 @@ public class NoteEditActivity extends AppCompatActivity implements OnClickListen
                     Editable edit_text = e.getEditableText();
                     edit_text.insert(index, spannableString); //将图片插入到光标所在位置
 
+//
 //                    // 添加以下代码来在图片插入后自动换行
 //                    edit_text.insert(index + spannableString.length(), "\n");// 在图片后添加一个换行符
 //
@@ -1157,6 +1215,8 @@ public class NoteEditActivity extends AppCompatActivity implements OnClickListen
 //                    e.setSelection(index + spannableString.length() + 1); // 将光标移动到换行符后面
 
                     mWorkingNote.mContent = e.getText().toString();
+                    mWorkingNote.mContent = mWorkingNote.mContent.replaceAll("(?m)^[ \t]*\r?\n", ""); // 删除空白行
+
 
 //                    //6.把改动提交到数据库中,两个数据库表都要改的
 //                    ContentResolver contentResolver = getContentResolver();
