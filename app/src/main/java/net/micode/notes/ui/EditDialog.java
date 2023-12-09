@@ -19,7 +19,7 @@ import net.micode.notes.R;
 public class EditDialog extends Dialog {
     private Button yes, no;//确定按钮
     private TextView titleTv;//消息标题文本
-    private EditText et_phone;//输入电话
+    private EditText et_key;//输入密码
     private String titleStr;//从外界设置的title文本
     private String messageStr;//从外界设置的消息文本
     //确定文本和取消文本的显示内容
@@ -77,7 +77,7 @@ public class EditDialog extends Dialog {
             @Override
             public void onClick(View v) {
                 if (yesOnclickListener != null) {
-                    yesOnclickListener.onYesClick(et_phone.getText().toString());
+                    yesOnclickListener.onYesClick(et_key.getText().toString());
                 }
             }
         });
@@ -116,9 +116,8 @@ public class EditDialog extends Dialog {
         yes = (Button) findViewById(R.id.yes);
         no = (Button) findViewById(R.id.no);
         titleTv = (TextView) findViewById(R.id.title);
-        et_phone = (EditText) findViewById(R.id.et_phone);
+        et_key = (EditText) findViewById(R.id.et_phone);
     }
-
     /**
      * 从外界Activity为Dialog设置标题
      *
@@ -141,7 +140,7 @@ public class EditDialog extends Dialog {
      * 设置确定按钮和取消被点击的接口
      */
     public interface onYesOnclickListener {
-        public void onYesClick(String phone);
+        public void onYesClick(String key);
     }
 
     public interface onNoOnclickListener {

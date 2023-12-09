@@ -31,6 +31,7 @@ import android.database.Cursor;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextUtils;
@@ -64,11 +65,13 @@ import android.widget.Toast;
 import net.micode.notes.R;
 import net.micode.notes.data.Notes;
 import net.micode.notes.data.Notes.NoteColumns;
+import net.micode.notes.data.DataFetch;
 import net.micode.notes.gtask.remote.GTaskSyncService;
 import net.micode.notes.model.WorkingNote;
 import net.micode.notes.tool.BackupUtils;
 import net.micode.notes.tool.DataUtils;
 import net.micode.notes.tool.ResourceParser;
+import net.micode.notes.tool.MD5Calc;
 import net.micode.notes.ui.NotesListAdapter.AppWidgetAttribute;
 import net.micode.notes.widget.NoteWidgetProvider_2x;
 import net.micode.notes.widget.NoteWidgetProvider_4x;
@@ -885,44 +888,74 @@ public class NotesListActivity extends AppCompatActivity implements OnClickListe
             case R.id.menu_secret: {    //进入私密模式
                 //TODO
                 /**
-                 * 隐私空间密码询问
+                 * 隐私空间密码询问，如果此前没有设置过密码，则弹出密码设置框，密码会放在data/data/net.micode.notes/files/privacy_space_key.txt文件中
                  */
-                final EditDialog editDialog = new EditDialog(NotesListActivity.this);
-                editDialog.setTitle("正在进入隐私空间");
-                editDialog.setYesOnclickListener("确定", new EditDialog.onYesOnclickListener() {
-                    @Override
-                    public void onYesClick(String phone) {
-                        AlertDialog.Builder dialog = new AlertDialog.Builder(NotesListActivity.this);
-                        dialog.setTitle("重要提醒");
-                        dialog.setMessage("您确认进入私密模式吗？");
-                        dialog.setCancelable(false);
-                        dialog.setPositiveButton("确认", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                secret_mode = 1;
+                DataFetch datafetch = new DataFetch();
+                if(!datafetch.fileIsExists(NotesListActivity.this, "privacy_space_key.txt")){
+                    final EditDialog registerKeyDialog = new EditDialog(NotesListActivity.this);
+                    registerKeyDialog.setTitle("请设置隐私空间密码");
+                    registerKeyDialog.setYesOnclickListener("确定", new EditDialog.onYesOnclickListener() {
+                        @Override
+                        public void onYesClick(String key) {
+                            String hashed_key = MD5Calc.md5Java(key);
+                            datafetch.writeFile(NotesListActivity.this, "privacy_space_key.txt", hashed_key);
+                            Toast.makeText(NotesListActivity.this, "您已设置隐私空间密码", Toast.LENGTH_SHORT).show();
+                            registerKeyDialog.dismiss();
+                        }
+                    });
+                    registerKeyDialog.setNoOnclickListener("取消", new EditDialog.onNoOnclickListener(){
+                        public void onNoClick(){
+                            registerKeyDialog.dismiss();
+                        }
+                    });
+                    registerKeyDialog.show();
+                }
+                else {
+                    final EditDialog editKeyDialog = new EditDialog(NotesListActivity.this);
+                    editKeyDialog.setTitle("正在进入隐私空间");
+                    editKeyDialog.setYesOnclickListener("确定", new EditDialog.onYesOnclickListener() {
+                        @Override
+                        public void onYesClick(String key) {
+                            String correct_hashed_key = datafetch.readFile(NotesListActivity.this, "privacy_space_key.txt");
+                            String input_hashed_key = MD5Calc.md5Java(key);
+                            if(correct_hashed_key.equals(input_hashed_key)){
+                                AlertDialog.Builder dialog = new AlertDialog.Builder(NotesListActivity.this);
+                                dialog.setTitle("重要提醒");
+                                dialog.setMessage("您确认进入私密模式吗？");
+                                dialog.setCancelable(false);
+                                dialog.setPositiveButton("确认", new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        secret_mode = 1;
+                                        startAsyncNotesListQuery();
+                                        //                        //更换背景图
+                                        //                        getWindow().setBackgroundDrawableResource(R.drawable.mi1);
+                                        Toast.makeText(NotesListActivity.this, "您已进入私密模式", Toast.LENGTH_SHORT).show();
+                                    }
+                                });
+                                dialog.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialog, int which) {
+                                    }
+                                });
+                                dialog.show();
                                 startAsyncNotesListQuery();
-//                        //更换背景图
-//                        getWindow().setBackgroundDrawableResource(R.drawable.mi1);
-                                Toast.makeText(NotesListActivity.this,"您已进入私密模式",Toast.LENGTH_SHORT).show();
+                                editKeyDialog.dismiss();
                             }
-                        });
-                        dialog.setNegativeButton("取消", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which){}
-                        });
-                        dialog.show();
-                        startAsyncNotesListQuery();
-                        editDialog.dismiss();
-                    }
-                });
-                editDialog.setNoOnclickListener("取消", new EditDialog.onNoOnclickListener(){
-                    @Override
-                    public void onNoClick(){
-                        editDialog.dismiss();
-                    }
-                });
-                editDialog.show();
-
+                            else {
+                                Toast.makeText(NotesListActivity.this, "密码输入错误!", Toast.LENGTH_SHORT).show();
+                                editKeyDialog.dismiss();
+                            }
+                        }
+                    });
+                    editKeyDialog.setNoOnclickListener("取消", new EditDialog.onNoOnclickListener() {
+                        @Override
+                        public void onNoClick() {
+                            editKeyDialog.dismiss();
+                        }
+                    });
+                    editKeyDialog.show();
+                }
 //                Toast.makeText(this,"您已进入私密模式",Toast.LENGTH_SHORT).show();
                 break;
             }

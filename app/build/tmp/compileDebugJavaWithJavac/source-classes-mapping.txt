@@ -3,6 +3,8 @@ net/micode/notes/model/WorkingNote.java
  net.micode.notes.model.WorkingNote$NoteSettingChangedListener
 net/micode/notes/gtask/data/Task.java
  net.micode.notes.gtask.data.Task
+net/micode/notes/data/DataFetch.java
+ net.micode.notes.data.DataFetch
 net/micode/notes/gtask/data/MetaData.java
  net.micode.notes.gtask.data.MetaData
 net/micode/notes/databinding/NoteEditBinding.java
@@ -47,9 +49,13 @@ net/micode/notes/ui/NotesListActivity.java
  net.micode.notes.ui.NotesListActivity
  net.micode.notes.ui.NotesListActivity$1
  net.micode.notes.ui.NotesListActivity$10
+ net.micode.notes.ui.NotesListActivity$10$1
+ net.micode.notes.ui.NotesListActivity$10$2
  net.micode.notes.ui.NotesListActivity$11
  net.micode.notes.ui.NotesListActivity$12
  net.micode.notes.ui.NotesListActivity$13
+ net.micode.notes.ui.NotesListActivity$14
+ net.micode.notes.ui.NotesListActivity$15
  net.micode.notes.ui.NotesListActivity$2
  net.micode.notes.ui.NotesListActivity$3
  net.micode.notes.ui.NotesListActivity$4
@@ -57,8 +63,6 @@ net/micode/notes/ui/NotesListActivity.java
  net.micode.notes.ui.NotesListActivity$6
  net.micode.notes.ui.NotesListActivity$7
  net.micode.notes.ui.NotesListActivity$8
- net.micode.notes.ui.NotesListActivity$8$1
- net.micode.notes.ui.NotesListActivity$8$2
  net.micode.notes.ui.NotesListActivity$9
  net.micode.notes.ui.NotesListActivity$BackgroundQueryHandler
  net.micode.notes.ui.NotesListActivity$ListEditState
@@ -81,6 +85,8 @@ net/micode/notes/ui/NoteItemData.java
  net.micode.notes.ui.NoteItemData
 net/micode/notes/gtask/exception/ActionFailureException.java
  net.micode.notes.gtask.exception.ActionFailureException
+net/micode/notes/tool/MD5Calc.java
+ net.micode.notes.tool.MD5Calc
 net/micode/notes/ui/NoteEditActivity.java
  net.micode.notes.ui.NoteEditActivity
  net.micode.notes.ui.NoteEditActivity$1
