@@ -148,12 +148,12 @@
         "source": "H:\\gitee\\xiaomi-notes--note1\\app\\src\\main\\res\\layout\\note_list_dropdown_menu.xml"
     },
     {
-        "merged": "H:\\gitee\\xiaomi-notes--note1\\app\\build\\intermediates\\merged_res\\debug\\raw-zh-rCN_introduction.flat",
-        "source": "H:\\gitee\\xiaomi-notes--note1\\app\\src\\main\\res\\raw-zh-rCN\\introduction"
-    },
-    {
         "merged": "H:\\gitee\\xiaomi-notes--note1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_list_green_up.9.png.flat",
         "source": "H:\\gitee\\xiaomi-notes--note1\\app\\src\\main\\res\\drawable-hdpi\\list_green_up.9.png"
+    },
+    {
+        "merged": "H:\\gitee\\xiaomi-notes--note1\\app\\build\\intermediates\\merged_res\\debug\\raw-zh-rCN_introduction.flat",
+        "source": "H:\\gitee\\xiaomi-notes--note1\\app\\src\\main\\res\\raw-zh-rCN\\introduction"
     },
     {
         "merged": "H:\\gitee\\xiaomi-notes--note1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_new_note_pressed.png.flat",
@@ -338,6 +338,10 @@
     {
         "merged": "H:\\gitee\\xiaomi-notes--note1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_call_record.png.flat",
         "source": "H:\\gitee\\xiaomi-notes--note1\\app\\src\\main\\res\\drawable-hdpi\\call_record.png"
+    },
+    {
+        "merged": "H:\\gitee\\xiaomi-notes--note1\\app\\build\\intermediates\\merged_res\\debug\\layout_dialog_edit.xml.flat",
+        "source": "H:\\gitee\\xiaomi-notes--note1\\app\\src\\main\\res\\layout\\dialog_edit.xml"
     },
     {
         "merged": "H:\\gitee\\xiaomi-notes--note1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_bg_btn_set_color.png.flat",

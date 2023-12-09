@@ -57,6 +57,8 @@ net/micode/notes/ui/NotesListActivity.java
  net.micode.notes.ui.NotesListActivity$6
  net.micode.notes.ui.NotesListActivity$7
  net.micode.notes.ui.NotesListActivity$8
+ net.micode.notes.ui.NotesListActivity$8$1
+ net.micode.notes.ui.NotesListActivity$8$2
  net.micode.notes.ui.NotesListActivity$9
  net.micode.notes.ui.NotesListActivity$BackgroundQueryHandler
  net.micode.notes.ui.NotesListActivity$ListEditState
@@ -69,6 +71,8 @@ net/micode/notes/databinding/DialogEditTextBinding.java
  net.micode.notes.databinding.DialogEditTextBinding
 net/micode/notes/databinding/NoteListBinding.java
  net.micode.notes.databinding.NoteListBinding
+net/micode/notes/databinding/DialogEditBinding.java
+ net.micode.notes.databinding.DialogEditBinding
 net/micode/notes/databinding/AddAccountTextBinding.java
  net.micode.notes.databinding.AddAccountTextBinding
 net/micode/notes/ui/LoginActivity.java
@@ -86,6 +90,12 @@ net/micode/notes/ui/NoteEditActivity.java
  net.micode.notes.ui.NoteEditActivity$5
  net.micode.notes.ui.NoteEditActivity$6
  net.micode.notes.ui.NoteEditActivity$HeadViewHolder
+net/micode/notes/ui/EditDialog.java
+ net.micode.notes.ui.EditDialog
+ net.micode.notes.ui.EditDialog$1
+ net.micode.notes.ui.EditDialog$2
+ net.micode.notes.ui.EditDialog$onNoOnclickListener
+ net.micode.notes.ui.EditDialog$onYesOnclickListener
 net/micode/notes/databinding/NoteListDropdownMenuBinding.java
  net.micode.notes.databinding.NoteListDropdownMenuBinding
 net/micode/notes/ui/DateTimePicker.java

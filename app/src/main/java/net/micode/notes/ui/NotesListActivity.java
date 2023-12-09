@@ -885,29 +885,43 @@ public class NotesListActivity extends AppCompatActivity implements OnClickListe
             case R.id.menu_secret: {    //进入私密模式
                 //TODO
                 /**
-                 *
+                 * 隐私空间密码询问
                  */
-
-                AlertDialog.Builder dialog = new AlertDialog.Builder(NotesListActivity.this);
-                dialog.setTitle("重要提醒");
-                dialog.setMessage("您确认进入私密模式吗？");
-                dialog.setCancelable(false);
-                dialog.setPositiveButton("确认", new DialogInterface.OnClickListener() {
+                final EditDialog editDialog = new EditDialog(NotesListActivity.this);
+                editDialog.setTitle("正在进入隐私空间");
+                editDialog.setYesOnclickListener("确定", new EditDialog.onYesOnclickListener() {
                     @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        secret_mode = 1;
-                        startAsyncNotesListQuery();
+                    public void onYesClick(String phone) {
+                        AlertDialog.Builder dialog = new AlertDialog.Builder(NotesListActivity.this);
+                        dialog.setTitle("重要提醒");
+                        dialog.setMessage("您确认进入私密模式吗？");
+                        dialog.setCancelable(false);
+                        dialog.setPositiveButton("确认", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                secret_mode = 1;
+                                startAsyncNotesListQuery();
 //                        //更换背景图
 //                        getWindow().setBackgroundDrawableResource(R.drawable.mi1);
-                        Toast.makeText(NotesListActivity.this,"您已进入私密模式",Toast.LENGTH_SHORT).show();
+                                Toast.makeText(NotesListActivity.this,"您已进入私密模式",Toast.LENGTH_SHORT).show();
+                            }
+                        });
+                        dialog.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which){}
+                        });
+                        dialog.show();
+                        startAsyncNotesListQuery();
+                        editDialog.dismiss();
                     }
                 });
-                dialog.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+                editDialog.setNoOnclickListener("取消", new EditDialog.onNoOnclickListener(){
                     @Override
-                    public void onClick(DialogInterface dialog, int which){}
+                    public void onNoClick(){
+                        editDialog.dismiss();
+                    }
                 });
-                dialog.show();
-                startAsyncNotesListQuery();
+                editDialog.show();
 
 //                Toast.makeText(this,"您已进入私密模式",Toast.LENGTH_SHORT).show();
                 break;

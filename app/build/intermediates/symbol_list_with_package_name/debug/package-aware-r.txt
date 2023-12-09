@@ -736,6 +736,7 @@ id edit_text
 id end
 id et_edit_text
 id et_foler_name
+id et_phone
 id expand_activities_button
 id expanded_menu
 id fill
@@ -805,6 +806,7 @@ id move
 id multiply
 id navigation_bar
 id never
+id no
 id none
 id normal
 id note_bg_color_selector
@@ -883,6 +885,7 @@ id widget_bg_image
 id widget_text
 id withText
 id wrap_content
+id yes
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer cancel_button_image_alpha
@@ -921,6 +924,7 @@ layout acticity_word
 layout activity_splash
 layout add_account_text
 layout datetime_picker
+layout dialog_edit
 layout dialog_edit_text
 layout folder_list_item
 layout note_edit
@@ -1274,6 +1278,7 @@ style Base_Widget_AppCompat_Spinner_Underlined
 style Base_Widget_AppCompat_TextView_SpinnerItem
 style Base_Widget_AppCompat_Toolbar
 style Base_Widget_AppCompat_Toolbar_Button_Navigation
+style Dialog_Msg
 style HighlightTextAppearancePrimary
 style HighlightTextAppearanceSecondary
 style NoteActionBarStyle
