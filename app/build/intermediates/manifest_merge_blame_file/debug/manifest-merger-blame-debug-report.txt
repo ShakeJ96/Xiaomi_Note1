@@ -2,273 +2,266 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="net.micode.notes"
 4    android:versionCode="1"
-5    android:versionName="0.1" >
+5    android:versionName="1.0" >
 6
 7    <uses-sdk
-7-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:8:5-44
+7-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:8:5-44
 8        android:minSdkVersion="16"
-8-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:8:15-41
+8-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:8:15-41
 9        android:targetSdkVersion="20" />
-9-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:8:5-44
+9-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:8:5-44
 10
 11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-11-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:10:5-81
-11-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:10:22-78
+11-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:10:5-81
+11-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:10:22-78
 12    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
-12-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:11:5-88
-12-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:11:22-85
+12-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:11:5-88
+12-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:11:22-85
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:12:5-67
-13-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:12:22-64
+13-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:12:5-67
+13-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:12:22-64
 14    <uses-permission android:name="android.permission.READ_CONTACTS" />
-14-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:13:5-72
-14-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:13:22-69
+14-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:13:5-72
+14-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:13:22-69
 15    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
-15-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:14:5-74
-15-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:14:22-71
+15-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:14:5-74
+15-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:14:22-71
 16    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
-16-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:15:5-80
-16-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:15:22-77
+16-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:15:5-80
+16-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:15:22-77
 17    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-17-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:16:5-71
-17-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:16:22-68
+17-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:16:5-71
+17-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:16:22-68
 18    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
-18-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:17:5-74
-18-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:17:22-71
+18-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:17:5-74
+18-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:17:22-71
 19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-19-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:18:5-81
-19-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:18:22-78
+19-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:18:5-81
+19-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:18:22-78
 20
 21    <application
-21-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:20:5-138:19
+21-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:20:5-135:19
 22        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-22-->[com.android.support:support-compat:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+22-->[com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 23        android:debuggable="true"
 24        android:icon="@drawable/icon_app"
-24-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:21:9-42
+24-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:21:9-42
 25        android:label="@string/app_name"
-25-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:22:9-41
+25-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:22:9-41
 26        android:testOnly="true" >
-27        <service
-27-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:23:9-25:48
-28            android:name="net.micode.notes.MyIntentService"
-28-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:24:13-44
-29            android:exported="false" />
-29-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:25:13-37
-30
-31        <activity
-31-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:27:9-36:20
-32            android:name="net.micode.notes.ui.SplashActivity"
-32-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:28:13-46
-33            android:configChanges="orientation|keyboardHidden|screenSize"
-33-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:29:13-74
-34            android:theme="@style/Theme.Notes1.Fullscreen" >
-34-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:30:13-59
-35            <intent-filter>
-35-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:31:13-35:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:32:17-69
-36-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:32:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:34:17-77
-38-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:34:27-74
-39            </intent-filter>
-40        </activity>
-41        <activity
-41-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:37:9-44:64
-42            android:name="net.micode.notes.ui.NotesListActivity"
-42-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:38:13-49
-43            android:configChanges="keyboardHidden|orientation|screenSize"
-43-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:39:13-74
-44            android:label="@string/app_name"
-44-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:40:13-45
-45            android:launchMode="singleTop"
-45-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:41:13-43
-46            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
-46-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:42:13-71
-47            android:uiOptions="splitActionBarWhenNarrow"
-47-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:43:13-57
-48            android:windowSoftInputMode="adjustPan" />
-48-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:44:13-52
-49        <activity
-49-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:45:9-78:20
-50            android:name="net.micode.notes.ui.NoteEditActivity"
-50-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:46:13-48
-51            android:configChanges="keyboardHidden|orientation|screenSize"
-51-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:47:13-74
-52            android:launchMode="singleTop"
-52-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:48:13-43
-53            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
-53-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:49:13-71
-54
-55            <!-- android:theme="@style/NoteTheme" -->
-56
-57            <intent-filter>
-57-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:53:13-60:29
-58                <action android:name="android.intent.action.VIEW" />
-58-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:54:17-69
-58-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:54:25-66
-59
-60                <category android:name="android.intent.category.DEFAULT" />
-60-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:56:17-76
-60-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:56:27-73
-61
-62                <data android:mimeType="vnd.android.cursor.item/text_note" />
-62-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:58:17-78
-62-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:58:23-75
-63                <data android:mimeType="vnd.android.cursor.item/call_note" />
-63-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:58:17-78
-63-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:58:23-75
-64            </intent-filter>
-65            <intent-filter>
-65-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:61:13-68:29
-66                <action android:name="android.intent.action.INSERT_OR_EDIT" />
-66-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:62:17-79
-66-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:62:25-76
-67
-68                <category android:name="android.intent.category.DEFAULT" />
-68-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:56:17-76
-68-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:56:27-73
-69
-70                <data android:mimeType="vnd.android.cursor.item/text_note" />
-70-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:58:17-78
-70-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:58:23-75
-71                <data android:mimeType="vnd.android.cursor.item/call_note" />
-71-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:58:17-78
-71-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:58:23-75
-72            </intent-filter>
-73            <intent-filter>
-73-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:69:13-73:29
-74                <action android:name="android.intent.action.SEARCH" />
-74-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:70:17-71
-74-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:70:25-68
-75
-76                <category android:name="android.intent.category.DEFAULT" />
-76-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:56:17-76
-76-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:56:27-73
-77            </intent-filter>
-78
-79            <meta-data
-79-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:75:13-77:54
-80                android:name="android.app.searchable"
-80-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:76:17-54
-81                android:resource="@xml/searchable" />
-81-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:77:17-51
-82        </activity>
-83
-84        <provider
-84-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:80:9-83:43
-85            android:name="net.micode.notes.data.NotesProvider"
-85-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:81:13-47
-86            android:authorities="micode_notes"
-86-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:82:13-47
-87            android:multiprocess="true" />
-87-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:83:13-40
-88
-89        <receiver
-89-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:85:9-97:20
-90            android:name="net.micode.notes.widget.NoteWidgetProvider_2x"
-90-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:86:13-57
-91            android:label="@string/app_widget2x2" >
-91-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:87:13-50
-92            <intent-filter>
-92-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:88:13-92:29
-93                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-93-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:89:17-84
-93-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:89:25-81
-94                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
-94-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:90:17-85
-94-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:90:25-82
-95                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
-95-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:91:17-85
-95-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:91:25-82
-96            </intent-filter>
-97
-98            <meta-data
-98-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:94:13-96:58
-99                android:name="android.appwidget.provider"
-99-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:95:17-58
-100                android:resource="@xml/widget_2x_info" />
-100-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:96:17-55
-101        </receiver>
-102        <receiver
-102-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:98:9-110:20
-103            android:name="net.micode.notes.widget.NoteWidgetProvider_4x"
-103-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:99:13-57
-104            android:label="@string/app_widget4x4" >
-104-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:100:13-50
-105            <intent-filter>
-105-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:88:13-92:29
-106                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-106-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:89:17-84
-106-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:89:25-81
-107                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
-107-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:90:17-85
-107-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:90:25-82
-108                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
-108-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:91:17-85
-108-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:91:25-82
-109            </intent-filter>
-110
-111            <meta-data
-111-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:94:13-96:58
-112                android:name="android.appwidget.provider"
-112-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:95:17-58
-113                android:resource="@xml/widget_4x_info" />
-113-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:96:17-55
-114        </receiver>
-115        <receiver android:name="net.micode.notes.ui.AlarmInitReceiver" >
-115-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:111:9-115:20
-115-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:111:19-55
-116            <intent-filter>
-116-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:112:13-114:29
-117                <action android:name="android.intent.action.BOOT_COMPLETED" />
-117-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:113:17-79
-117-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:113:25-76
-118            </intent-filter>
-119        </receiver>
-120        <receiver
-120-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:116:9-118:50
-121            android:name="net.micode.notes.ui.AlarmReceiver"
-121-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:117:13-45
-122            android:process=":remote" />
-122-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:118:13-38
-123
-124        <activity
-124-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:120:9-124:87
-125            android:name="net.micode.notes.ui.AlarmAlertActivity"
-125-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:121:13-50
-126            android:label="@string/app_name"
-126-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:122:13-45
-127            android:launchMode="singleInstance"
-127-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:123:13-48
-128            android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar" />
-128-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:124:13-75
-129        <activity
-129-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:125:9-129:72
-130            android:name="net.micode.notes.ui.NotesPreferenceActivity"
-130-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:126:13-55
-131            android:label="@string/preferences_title"
-131-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:127:13-54
-132            android:launchMode="singleTop"
-132-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:128:13-43
-133            android:theme="@android:style/Theme.Holo.Light" />
-133-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:129:13-60
+27        <activity
+27-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:24:9-33:20
+28            android:name="net.micode.notes.ui.SplashActivity"
+28-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:25:13-46
+29            android:configChanges="orientation|keyboardHidden|screenSize"
+29-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:26:13-74
+30            android:theme="@style/Theme.Notes1.Fullscreen" >
+30-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:27:13-59
+31            <intent-filter>
+31-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:28:13-32:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:29:17-69
+32-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:29:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:31:17-77
+34-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:31:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:34:9-41:64
+38            android:name="net.micode.notes.ui.NotesListActivity"
+38-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:35:13-49
+39            android:configChanges="keyboardHidden|orientation|screenSize"
+39-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:36:13-74
+40            android:label="@string/app_name"
+40-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:37:13-45
+41            android:launchMode="singleTop"
+41-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:38:13-43
+42            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+42-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:39:13-71
+43            android:uiOptions="splitActionBarWhenNarrow"
+43-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:40:13-57
+44            android:windowSoftInputMode="adjustPan" />
+44-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:41:13-52
+45        <activity
+45-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:42:9-75:20
+46            android:name="net.micode.notes.ui.NoteEditActivity"
+46-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:43:13-48
+47            android:configChanges="keyboardHidden|orientation|screenSize"
+47-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:44:13-74
+48            android:launchMode="singleTop"
+48-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:45:13-43
+49            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+49-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:46:13-71
+50
+51            <!-- android:theme="@style/NoteTheme" -->
+52
+53            <intent-filter>
+53-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:50:13-57:29
+54                <action android:name="android.intent.action.VIEW" />
+54-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:51:17-69
+54-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:51:25-66
+55
+56                <category android:name="android.intent.category.DEFAULT" />
+56-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:53:17-76
+56-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:53:27-73
+57
+58                <data android:mimeType="vnd.android.cursor.item/text_note" />
+58-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:55:17-78
+58-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:55:23-75
+59                <data android:mimeType="vnd.android.cursor.item/call_note" />
+59-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:55:17-78
+59-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:55:23-75
+60            </intent-filter>
+61            <intent-filter>
+61-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:58:13-65:29
+62                <action android:name="android.intent.action.INSERT_OR_EDIT" />
+62-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:59:17-79
+62-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:59:25-76
+63
+64                <category android:name="android.intent.category.DEFAULT" />
+64-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:53:17-76
+64-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:53:27-73
+65
+66                <data android:mimeType="vnd.android.cursor.item/text_note" />
+66-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:55:17-78
+66-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:55:23-75
+67                <data android:mimeType="vnd.android.cursor.item/call_note" />
+67-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:55:17-78
+67-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:55:23-75
+68            </intent-filter>
+69            <intent-filter>
+69-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:66:13-70:29
+70                <action android:name="android.intent.action.SEARCH" />
+70-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:67:17-71
+70-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:67:25-68
+71
+72                <category android:name="android.intent.category.DEFAULT" />
+72-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:53:17-76
+72-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:53:27-73
+73            </intent-filter>
+74
+75            <meta-data
+75-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:72:13-74:54
+76                android:name="android.app.searchable"
+76-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:73:17-54
+77                android:resource="@xml/searchable" />
+77-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:74:17-51
+78        </activity>
+79
+80        <provider
+80-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:77:9-80:43
+81            android:name="net.micode.notes.data.NotesProvider"
+81-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:78:13-47
+82            android:authorities="micode_notes"
+82-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:79:13-47
+83            android:multiprocess="true" />
+83-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:80:13-40
+84
+85        <receiver
+85-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:82:9-94:20
+86            android:name="net.micode.notes.widget.NoteWidgetProvider_2x"
+86-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:83:13-57
+87            android:label="@string/app_widget2x2" >
+87-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:84:13-50
+88            <intent-filter>
+88-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:85:13-89:29
+89                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+89-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:86:17-84
+89-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:86:25-81
+90                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+90-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:87:17-85
+90-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:87:25-82
+91                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
+91-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:88:17-85
+91-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:88:25-82
+92            </intent-filter>
+93
+94            <meta-data
+94-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:91:13-93:58
+95                android:name="android.appwidget.provider"
+95-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:92:17-58
+96                android:resource="@xml/widget_2x_info" />
+96-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:93:17-55
+97        </receiver>
+98        <receiver
+98-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:95:9-107:20
+99            android:name="net.micode.notes.widget.NoteWidgetProvider_4x"
+99-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:96:13-57
+100            android:label="@string/app_widget4x4" >
+100-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:97:13-50
+101            <intent-filter>
+101-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:85:13-89:29
+102                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+102-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:86:17-84
+102-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:86:25-81
+103                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+103-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:87:17-85
+103-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:87:25-82
+104                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
+104-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:88:17-85
+104-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:88:25-82
+105            </intent-filter>
+106
+107            <meta-data
+107-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:91:13-93:58
+108                android:name="android.appwidget.provider"
+108-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:92:17-58
+109                android:resource="@xml/widget_4x_info" />
+109-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:93:17-55
+110        </receiver>
+111        <receiver android:name="net.micode.notes.ui.AlarmInitReceiver" >
+111-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:108:9-112:20
+111-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:108:19-55
+112            <intent-filter>
+112-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:109:13-111:29
+113                <action android:name="android.intent.action.BOOT_COMPLETED" />
+113-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:110:17-79
+113-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:110:25-76
+114            </intent-filter>
+115        </receiver>
+116        <receiver
+116-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:113:9-115:50
+117            android:name="net.micode.notes.ui.AlarmReceiver"
+117-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:114:13-45
+118            android:process=":remote" />
+118-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:115:13-38
+119
+120        <activity
+120-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:117:9-121:87
+121            android:name="net.micode.notes.ui.AlarmAlertActivity"
+121-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:118:13-50
+122            android:label="@string/app_name"
+122-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:119:13-45
+123            android:launchMode="singleInstance"
+123-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:120:13-48
+124            android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar" />
+124-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:121:13-75
+125        <activity
+125-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:122:9-126:72
+126            android:name="net.micode.notes.ui.NotesPreferenceActivity"
+126-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:123:13-55
+127            android:label="@string/preferences_title"
+127-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:124:13-54
+128            android:launchMode="singleTop"
+128-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:125:13-43
+129            android:theme="@android:style/Theme.Holo.Light" />
+129-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:126:13-60
+130
+131        <service
+131-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:128:9-130:48
+132            android:name="net.micode.notes.gtask.remote.GTaskSyncService"
+132-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:129:13-58
+133            android:exported="false" />
+133-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:130:13-37
 134
-135        <service
-135-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:131:9-133:48
-136            android:name="net.micode.notes.gtask.remote.GTaskSyncService"
-136-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:132:13-58
-137            android:exported="false" />
-137-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:133:13-37
-138
-139        <meta-data
-139-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:135:9-137:52
-140            android:name="android.app.default_searchable"
-140-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:136:13-58
-141            android:value=".ui.NoteEditActivity" />
-141-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:137:13-49
-142    </application>
-143
-144</manifest>
+135        <meta-data
+135-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:132:9-134:52
+136            android:name="android.app.default_searchable"
+136-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:133:13-58
+137            android:value=".ui.NoteEditActivity" />
+137-->H:\gitee\xiaomi-notes--note1\app\src\main\AndroidManifest.xml:134:13-49
+138    </application>
+139
+140</manifest>

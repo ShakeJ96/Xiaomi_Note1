@@ -171,13 +171,13 @@ net/micode/notes/databinding/DatetimePickerBinding.java
  net.micode.notes.databinding.DatetimePickerBinding
 net/micode/notes/databinding/SettingsHeaderBinding.java
  net.micode.notes.databinding.SettingsHeaderBinding
-net/micode/notes/databinding/FolderListItemBinding.java
- net.micode.notes.databinding.FolderListItemBinding
-net/micode/notes/data/Contact.java
- net.micode.notes.data.Contact
-net/micode/notes/gtask/data/SqlData.java
- net.micode.notes.gtask.data.SqlData
 net/micode/notes/ui/SplashActivity.java
  net.micode.notes.ui.SplashActivity
  net.micode.notes.ui.SplashActivity$1
  net.micode.notes.ui.SplashActivity$2
+net/micode/notes/data/Contact.java
+ net.micode.notes.data.Contact
+net/micode/notes/gtask/data/SqlData.java
+ net.micode.notes.gtask.data.SqlData
+net/micode/notes/databinding/FolderListItemBinding.java
+ net.micode.notes.databinding.FolderListItemBinding

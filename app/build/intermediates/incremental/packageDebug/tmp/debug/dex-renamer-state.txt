@@ -1,4 +1,4 @@
-#Fri Dec 08 19:43:23 CST 2023
-base.0=D\:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Sat Dec 09 14:46:09 CST 2023
+base.0=H\:\\gitee\\xiaomi-notes--note1\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
