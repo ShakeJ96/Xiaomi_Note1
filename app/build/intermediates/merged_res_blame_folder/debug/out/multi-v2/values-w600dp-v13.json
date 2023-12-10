@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "H:\\gitee\\xiaomi-notes--note1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
+            "outputFile": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "H:\\gitee\\xiaomi-notes--note1\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "1",
-                        "startOffsets": "14",
+                        "startOffsets": "13",
                         "endColumns": "54",
-                        "endOffsets": "67"
+                        "endOffsets": "66"
                     },
                     "to": {
                         "startLines": "2",

@@ -16,15 +16,21 @@
 
 package net.micode.notes.data;
 
+import android.content.ContentUris;
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.net.Uri;
 import android.util.Log;
 
 import net.micode.notes.data.Notes.DataColumns;
 import net.micode.notes.data.Notes.DataConstants;
 import net.micode.notes.data.Notes.NoteColumns;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class NotesDatabaseHelper extends SQLiteOpenHelper {
@@ -359,4 +365,36 @@ public class NotesDatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("ALTER TABLE " + TABLE.NOTE + " ADD COLUMN " + NoteColumns.VERSION
                 + " INTEGER NOT NULL DEFAULT 0");
     }
+
+    //创建搜索类,利用sql语句
+    public List<String> dosearch(String querystring) //搜索时不区分大小写
+    {
+        Cursor cursor = null;
+        List<String> results = new ArrayList<>();
+
+        SQLiteDatabase db = mInstance.getReadableDatabase();
+        String query_sql_string = "select * from " + TABLE.DATA + " where content like " + "'%"+ querystring + "%'";
+        Log.i(TAG,query_sql_string);
+        cursor = db.rawQuery(query_sql_string,null);
+        if(cursor!=null)
+        {
+            while(cursor.moveToNext())
+            {
+                String content = cursor.getString(cursor.getColumnIndex("content"));
+
+                results.add(content);
+                //打印测试
+                Log.i(TAG, content);
+                int id = cursor.getInt(cursor.getColumnIndex("_id")); // 获取便签 ID
+                //构造便签笔记的 URI
+                Uri noteUri = ContentUris.withAppendedId(Notes.CONTENT_NOTE_URI, id);
+                Log.e(TAG, String.valueOf(noteUri));
+                //启动便签笔记编辑器页面
+
+            }
+        }
+        cursor.close();
+        return results;
+    }
+
 }

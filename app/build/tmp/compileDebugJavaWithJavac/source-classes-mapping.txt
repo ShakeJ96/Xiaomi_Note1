@@ -27,6 +27,8 @@ net/micode/notes/ui/NotesPreferenceActivity.java
  net.micode.notes.ui.NotesPreferenceActivity$GTaskReceiver
 net/micode/notes/databinding/Widget4xBinding.java
  net.micode.notes.databinding.Widget4xBinding
+net/micode/notes/databinding/SearchListBinding.java
+ net.micode.notes.databinding.SearchListBinding
 net/micode/notes/databinding/NoteListFooterBinding.java
  net.micode.notes.databinding.NoteListFooterBinding
 net/micode/notes/databinding/Widget2xBinding.java
@@ -181,19 +183,24 @@ net/micode/notes/ui/DropdownMenu.java
 net/micode/notes/ui/NotesListAdapter.java
  net.micode.notes.ui.NotesListAdapter
  net.micode.notes.ui.NotesListAdapter$AppWidgetAttribute
+NotesContract/NoteEntry.java
+ NotesContract.NoteEntry
 net/micode/notes/databinding/AccountDialogTitleBinding.java
  net.micode.notes.databinding.AccountDialogTitleBinding
 net/micode/notes/databinding/DatetimePickerBinding.java
  net.micode.notes.databinding.DatetimePickerBinding
 net/micode/notes/databinding/SettingsHeaderBinding.java
  net.micode.notes.databinding.SettingsHeaderBinding
-net/micode/notes/ui/SplashActivity.java
- net.micode.notes.ui.SplashActivity
- net.micode.notes.ui.SplashActivity$1
- net.micode.notes.ui.SplashActivity$2
+net/micode/notes/databinding/FolderListItemBinding.java
+ net.micode.notes.databinding.FolderListItemBinding
 net/micode/notes/data/Contact.java
  net.micode.notes.data.Contact
 net/micode/notes/gtask/data/SqlData.java
  net.micode.notes.gtask.data.SqlData
-net/micode/notes/databinding/FolderListItemBinding.java
- net.micode.notes.databinding.FolderListItemBinding
+net/micode/notes/ui/ShowResultActivity.java
+ net.micode.notes.ui.ShowResultActivity
+net/micode/notes/ui/SplashActivity.java
+ net.micode.notes.ui.SplashActivity
+ net.micode.notes.ui.SplashActivity$1
+ net.micode.notes.ui.SplashActivity$2
+ net.micode.notes.ui.SplashActivity$3

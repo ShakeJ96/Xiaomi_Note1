@@ -776,6 +776,7 @@ id line1
 id line3
 id listMode
 id list_item
+id listview
 id ll_font_large
 id ll_font_normal
 id ll_font_small
@@ -847,6 +848,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id skip_button
 id spacer
 id split_action_bar
 id src_atop
@@ -939,6 +941,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout search_list
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -955,6 +958,7 @@ menu note_list_options
 menu sub_folder
 plurals search_results_title
 raw introduction
+raw testmusic
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

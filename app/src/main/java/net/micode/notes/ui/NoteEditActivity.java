@@ -16,7 +16,6 @@
 
 package net.micode.notes.ui;
 
-import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.AlertDialog;
 import android.app.PendingIntent;
@@ -24,7 +23,6 @@ import android.app.SearchManager;
 import android.appwidget.AppWidgetManager;
 import android.content.ContentResolver;
 import android.content.ContentUris;
-import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -60,13 +58,10 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.WindowManager;
-import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
-import android.widget.ImageButton;
-import android.widget.ImageSwitcher;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -75,6 +70,7 @@ import android.widget.Toast;
 import net.micode.notes.R;
 import net.micode.notes.data.Notes;
 import net.micode.notes.data.Notes.TextNote;
+import net.micode.notes.data.NotesDatabaseHelper;
 import net.micode.notes.model.WorkingNote;
 import net.micode.notes.model.WorkingNote.NoteSettingChangedListener;
 import net.micode.notes.tool.DataUtils;
@@ -86,10 +82,11 @@ import net.micode.notes.widget.NoteWidgetProvider_2x;
 import net.micode.notes.widget.NoteWidgetProvider_4x;
 
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
-import java.util.function.ToDoubleBiFunction;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -374,7 +371,27 @@ public class NoteEditActivity extends AppCompatActivity implements OnClickListen
             getWindow().setSoftInputMode(
                     WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE
                             | WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
-        } else {
+        }
+        //重点是这个判断条件,通过输入的字符进行展示
+        else if(TextUtils.equals(Intent.ACTION_SEARCH, intent.getAction()))  //点击搜索按钮响应
+        {
+            String querystring = intent.getStringExtra(SearchManager.QUERY); //获取搜索框内的字符串
+            NotesDatabaseHelper dbhelper = new NotesDatabaseHelper(this);
+            List<String> list = dbhelper.dosearch(querystring);
+
+            // 打印查询结果
+            for (String result : list) {
+                System.out.println(result);
+            }
+            // 创建包含查询结果的Intent
+            Intent showResultIntent = new Intent(NoteEditActivity.this, ShowResultActivity.class);
+            showResultIntent.putStringArrayListExtra("searchResult", new ArrayList<>(list));
+
+            // 启动ShowResultActivity来展示查询结果
+            startActivity(showResultIntent);
+            return false;
+        }
+        else {
             Log.e(TAG, "Intent not specified action, should not support");
             finish();
             return false;

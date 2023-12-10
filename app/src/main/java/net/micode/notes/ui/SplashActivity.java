@@ -1,20 +1,20 @@
 package net.micode.notes.ui;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.view.animation.AlphaAnimation;
+import android.widget.Button;
 import android.widget.TextView;
 
 import net.micode.notes.R;
-import net.micode.notes.ui.NotesListActivity;
 
 public class SplashActivity extends AppCompatActivity {
-    private static final int ANIMATION_DURATION = 5000; // 动画持续时间，单位为毫秒
-    private static final int SPLASH_DURATION = 5500; // 欢迎页展示时间，单位为毫秒
+    private static final int ANIMATION_DURATION = 2500; // 动画持续时间，单位为毫秒
+    private static final int SPLASH_DURATION = 3000; // 欢迎页展示时间，单位为毫秒
 
     private Handler mHandler = new Handler();
     private MediaPlayer mMediaPlayer;
@@ -26,7 +26,7 @@ public class SplashActivity extends AppCompatActivity {
 
 
         // 创建 MediaPlayer 对象，并指定要播放的音频文件
-//        playAudio(R.raw.testmusic);
+        playAudio(R.raw.testmusic);
 
 
         // 获取 TextView 的引用
@@ -38,6 +38,25 @@ public class SplashActivity extends AppCompatActivity {
 
         // 应用动画效果到 TextView 的背景上
         textView.startAnimation(alphaAnimation);
+
+        //自主点击跳转
+        Button skipButton = findViewById(R.id.skip_button);
+        skipButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // 在 Activity 销毁时停止播放音频并释放 MediaPlayer 资源
+                if (mMediaPlayer != null) {
+                    mMediaPlayer.stop();
+                    mMediaPlayer.release();
+                    mMediaPlayer = null;
+                }
+
+                 // 点击按钮后跳转到主页面
+                Intent intent = new Intent(SplashActivity.this, NotesListActivity.class);
+                startActivity(intent);
+                finish(); // 销毁欢迎页
+            }
+        });
 
         // 当计时结束时，跳转至 NotesListActivity
         mHandler.postDelayed(new Runnable() {

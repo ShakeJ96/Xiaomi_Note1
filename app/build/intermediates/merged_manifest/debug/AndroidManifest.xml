@@ -24,6 +24,15 @@
         android:icon="@drawable/icon_app"
         android:label="@string/app_name"
         android:testOnly="true" >
+
+        <!-- 其他声明 -->
+        <activity
+            android:name="net.micode.notes.ui.ShowResultActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Show Result"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <!-- 其他声明 -->
+
         <activity
             android:name="net.micode.notes.ui.SplashActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
