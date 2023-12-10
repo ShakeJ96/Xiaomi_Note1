@@ -85,6 +85,9 @@ import net.micode.notes.widget.NoteWidgetProvider_4x;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.nio.charset.Charset;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -829,6 +832,123 @@ public class NoteEditActivity extends AppCompatActivity implements OnClickListen
             case R.id.menu_insert_audio:
                 Intent intent = new Intent(MediaStore.Audio.Media.RECORD_SOUND_ACTION);
                 startActivityForResult(intent, RECORD_REQUEST);
+            case R.id.join_password: {
+                // 获取SharedPreferences对象
+                SharedPreferences sharedPreferences = getSharedPreferences("NoteLock", MODE_PRIVATE);
+
+                // 检查笔记是否未被锁定
+                if (sharedPreferences.getBoolean("isLocked", false)) {
+                    // 如果笔记未被锁定，弹出提示信息
+                    Toast.makeText(NoteEditActivity.this, "该笔记被锁定", Toast.LENGTH_SHORT).show();
+                } else {
+                    // 如果笔记没有被锁定，弹出确认对话框
+                    AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+                    dialog.setTitle("重要提醒");
+                    dialog.setMessage("您确认将此笔记加入笔记锁吗？");
+                    dialog.setCancelable(false);
+                    dialog.setPositiveButton("确认", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            // 获取 SharedPreferences 中保存的密码
+                            SharedPreferences prefs = getSharedPreferences("MyApp", MODE_PRIVATE);
+                            final String savedPassword = prefs.getString("password", "");
+                            if (!savedPassword.isEmpty()) {
+                                // 如果密码存在，弹出一个对话框让用户输入密码
+                                AlertDialog.Builder passwordDialog = new AlertDialog.Builder(NoteEditActivity.this);
+                                passwordDialog.setTitle("输入密码");
+                                final EditText input = new EditText(NoteEditActivity.this);
+                                passwordDialog.setView(input);
+                                passwordDialog.setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        String enteredPassword = input.getText().toString();
+                                        try {
+                                            // 创建 MessageDigest 实例
+                                            MessageDigest digest = MessageDigest.getInstance("SHA-256");
+                                            // 生成哈希值
+                                            byte[] hash = digest.digest(enteredPassword.getBytes(Charset.forName("UTF-8")));
+                                            // 将字节转换为十六进制字符串
+                                            StringBuilder hexString = new StringBuilder();
+                                            for (byte b : hash) {
+                                                String hex = Integer.toHexString(0xff & b);
+                                                if (hex.length() == 1) hexString.append('0');
+                                                hexString.append(hex);
+                                            }
+                                            // 获取输入密码的哈希值
+                                            String enteredHashedPassword = hexString.toString();
+                                            // 比较输入密码的哈希值与保存的哈希密码是否相同
+                                            if (enteredHashedPassword.equals(savedPassword)) {
+                                                // 如果密码正确，设置笔记被锁定
+                                                SharedPreferences.Editor editor = sharedPreferences.edit();
+                                                editor.putBoolean("isLocked", true);
+                                                editor.apply();
+
+                                                // 弹出提示信息
+                                                Toast.makeText(NoteEditActivity.this, "笔记锁已添加", Toast.LENGTH_SHORT).show();
+                                                // 显示笔记内容
+                                                // 这里需要你自己实现显示笔记内容的逻辑
+                                            } else {
+                                                // 如果密码错误，提示用户
+                                                Toast.makeText(NoteEditActivity.this, "密码错误", Toast.LENGTH_SHORT).show();
+                                            }
+                                        } catch (NoSuchAlgorithmException e) {
+                                            e.printStackTrace();
+                                        }
+                                    }
+                                });
+                                passwordDialog.setNegativeButton("取消", null);
+                                passwordDialog.show();
+                            } else {
+                                // 如果密码不存在，直接显示笔记内容
+                                // 这里需要你自己实现显示笔记内容的逻辑
+                            }
+                        }
+                    });
+                    dialog.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {}
+                    });
+                    dialog.show();
+                }
+                break;
+            }
+
+            case R.id.out_password:{
+
+                // 获取SharedPreferences对象
+                SharedPreferences sharedPreferences = getSharedPreferences("NoteLock", MODE_PRIVATE);
+
+                // 检查笔记是否未被锁定
+                if (!sharedPreferences.getBoolean("isLocked", false)) {
+                    // 如果笔记未被锁定，弹出提示信息
+                    Toast.makeText(NoteEditActivity.this, "该笔记未被锁定", Toast.LENGTH_SHORT).show();
+                } else {
+                    // 如果笔记被锁定，弹出确认对话框
+                    AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+                    dialog.setTitle("重要提醒");
+                    dialog.setMessage("您确认将此笔记删除笔记锁吗？");
+                    dialog.setCancelable(false);
+                    dialog.setPositiveButton("确认", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            // 删除笔记锁
+                            SharedPreferences.Editor editor = sharedPreferences.edit();
+                            editor.putBoolean("isLocked", false);
+                            editor.apply();
+
+                            // 弹出提示信息
+                            Toast.makeText(NoteEditActivity.this, "笔记锁已删除", Toast.LENGTH_SHORT).show();
+                            // 显示笔记内容
+                            // 这里需要你自己实现显示笔记内容的逻辑
+                        }
+                    });
+                    dialog.setNegativeButton("取消", null);
+                    dialog.show();
+                }
+                break;
+            }
+
+
             default:
                 break;
 

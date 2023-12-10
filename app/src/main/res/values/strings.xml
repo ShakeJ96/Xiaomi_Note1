@@ -71,6 +71,8 @@
     <string name="menu_send_to_desktop">发送桌面</string>
     <string name="menu_alert">定时提醒我</string>
     <string name="menu_remove_remind">删除定时提醒</string>
+    <string name="join_password" translatable="false">加入笔记锁</string>
+    <string name="out_password" translatable="false">删除笔记锁</string>
     <string name="menu_title_select_folder">选择文件夹</string>
     <string name="menu_move_parent_folder">根目录</string>
     <string name="info_note_enter_desktop">笔记添加到桌面</string>
@@ -155,6 +157,6 @@
 
     <string name="menu_secret" translatable="false">私密模式</string>
     <string name="menu_quit_secret" translatable="false">退出私密模式</string>
-
+    <string name="set_password" translatable="false">设置笔记锁密码</string>
 
 </resources>

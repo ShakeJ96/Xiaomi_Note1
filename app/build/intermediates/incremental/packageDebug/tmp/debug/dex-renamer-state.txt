@@ -1,4 +1,4 @@
-#Sun Dec 10 22:39:22 CST 2023
-base.0=D\:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-renamed.0=classes.dex
+#Sun Dec 10 23:11:52 CST 2023
+base.0=C\:\\Users\\wxy12\\AndroidStudioProjects\\xiaomi-notes--note1\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
+renamed.0=classes.dex

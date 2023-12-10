@@ -63,7 +63,12 @@
     <item
         android:id="@+id/menu_select_image"
         android:title="选择插入图片" />
-
+    <item
+        android:id="@+id/join_password"
+        android:title="@string/join_password"/>
+    <item
+        android:id="@+id/out_password"
+        android:title="@string/out_password"/>
     <item
         android:id="@+id/menu_insert_audio"
         android:title="插入语音消息" />
