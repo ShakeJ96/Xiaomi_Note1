@@ -5,263 +5,277 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-7-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:8:5-44
+7-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:8:5-44
 8        android:minSdkVersion="16"
-8-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:8:15-41
+8-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:8:15-41
 9        android:targetSdkVersion="20" />
-9-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:8:5-44
+9-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:8:5-44
 10
 11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-11-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:10:5-81
-11-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:10:22-78
+11-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:10:5-81
+11-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:10:22-78
 12    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
-12-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:11:5-88
-12-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:11:22-85
+12-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:11:5-88
+12-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:11:22-85
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:12:5-67
-13-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:12:22-64
+13-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:12:5-67
+13-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:12:22-64
 14    <uses-permission android:name="android.permission.READ_CONTACTS" />
-14-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:13:5-72
-14-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:13:22-69
+14-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:13:5-72
+14-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:13:22-69
 15    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
-15-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:14:5-74
-15-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:14:22-71
+15-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:14:5-74
+15-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:14:22-71
 16    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
-16-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:15:5-80
-16-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:15:22-77
+16-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:15:5-80
+16-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:15:22-77
 17    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-17-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:16:5-71
-17-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:16:22-68
+17-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:16:5-71
+17-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:16:22-68
 18    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
-18-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:17:5-74
-18-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:17:22-71
+18-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:17:5-74
+18-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:17:22-71
 19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-19-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:18:5-81
-19-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:18:22-78
+19-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:18:5-81
+19-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:18:22-78
 20
 21    <application
-21-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:20:5-135:19
+21-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:20:5-145:19
 22        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-22-->[com.android.support:support-compat:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+22-->[com.android.support:support-compat:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 23        android:debuggable="true"
 24        android:icon="@drawable/icon_app"
-24-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:21:9-42
+24-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:21:9-42
 25        android:label="@string/app_name"
-25-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:22:9-41
+25-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:22:9-41
 26        android:testOnly="true" >
-27        <activity
-27-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:24:9-33:20
-28            android:name="net.micode.notes.ui.SplashActivity"
-28-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:25:13-46
-29            android:configChanges="orientation|keyboardHidden|screenSize"
-29-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:26:13-74
-30            android:theme="@style/Theme.Notes1.Fullscreen" >
-30-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:27:13-59
-31            <intent-filter>
-31-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:28:13-32:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:29:17-69
-32-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:29:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:31:17-77
-34-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:31:27-74
-35            </intent-filter>
-36        </activity>
-37        <activity
-37-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:34:9-41:64
-38            android:name="net.micode.notes.ui.NotesListActivity"
-38-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:35:13-49
-39            android:configChanges="keyboardHidden|orientation|screenSize"
-39-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:36:13-74
-40            android:label="@string/app_name"
-40-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:37:13-45
-41            android:launchMode="singleTop"
-41-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:38:13-43
-42            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
-42-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:39:13-71
-43            android:uiOptions="splitActionBarWhenNarrow"
-43-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:40:13-57
-44            android:windowSoftInputMode="adjustPan" />
-44-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:41:13-52
-45        <activity
-45-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:42:9-75:20
-46            android:name="net.micode.notes.ui.NoteEditActivity"
-46-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:43:13-48
-47            android:configChanges="keyboardHidden|orientation|screenSize"
-47-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:44:13-74
-48            android:launchMode="singleTop"
-48-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:45:13-43
-49            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
-49-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:46:13-71
-50
-51            <!-- android:theme="@style/NoteTheme" -->
-52
-53            <intent-filter>
-53-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:50:13-57:29
-54                <action android:name="android.intent.action.VIEW" />
-54-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:51:17-69
-54-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:51:25-66
-55
-56                <category android:name="android.intent.category.DEFAULT" />
-56-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:53:17-76
-56-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:53:27-73
-57
-58                <data android:mimeType="vnd.android.cursor.item/text_note" />
-58-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:55:17-78
-58-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:55:23-75
-59                <data android:mimeType="vnd.android.cursor.item/call_note" />
-59-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:55:17-78
-59-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:55:23-75
-60            </intent-filter>
-61            <intent-filter>
-61-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:58:13-65:29
-62                <action android:name="android.intent.action.INSERT_OR_EDIT" />
-62-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:59:17-79
-62-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:59:25-76
-63
-64                <category android:name="android.intent.category.DEFAULT" />
-64-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:53:17-76
-64-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:53:27-73
-65
-66                <data android:mimeType="vnd.android.cursor.item/text_note" />
-66-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:55:17-78
-66-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:55:23-75
-67                <data android:mimeType="vnd.android.cursor.item/call_note" />
-67-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:55:17-78
-67-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:55:23-75
-68            </intent-filter>
-69            <intent-filter>
-69-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:66:13-70:29
-70                <action android:name="android.intent.action.SEARCH" />
-70-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:67:17-71
-70-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:67:25-68
-71
-72                <category android:name="android.intent.category.DEFAULT" />
-72-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:53:17-76
-72-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:53:27-73
-73            </intent-filter>
+27
+28        <!-- 其他声明 -->
+29        <activity
+29-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:26:9-30:47
+30            android:name="net.micode.notes.ui.ShowResultActivity"
+30-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:27:17-54
+31            android:configChanges="orientation|keyboardHidden|screenSize"
+31-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:28:17-78
+32            android:label="Show Result"
+32-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:30:17-44
+33            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+33-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:29:17-75
+34        <!-- 其他声明 -->
+35
+36        <activity
+36-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:34:9-43:20
+37            android:name="net.micode.notes.ui.SplashActivity"
+37-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:35:13-46
+38            android:configChanges="orientation|keyboardHidden|screenSize"
+38-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:36:13-74
+39            android:theme="@style/Theme.Notes1.Fullscreen" >
+39-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:37:13-59
+40            <intent-filter>
+40-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:38:13-42:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:39:17-69
+41-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:39:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:41:17-77
+43-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:41:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:44:9-51:64
+47            android:name="net.micode.notes.ui.NotesListActivity"
+47-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:45:13-49
+48            android:configChanges="keyboardHidden|orientation|screenSize"
+48-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:46:13-74
+49            android:label="@string/app_name"
+49-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:47:13-45
+50            android:launchMode="singleTop"
+50-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:48:13-43
+51            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+51-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:49:13-71
+52            android:uiOptions="splitActionBarWhenNarrow"
+52-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:50:13-57
+53            android:windowSoftInputMode="adjustPan" />
+53-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:51:13-52
+54        <activity
+54-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:52:9-85:20
+55            android:name="net.micode.notes.ui.NoteEditActivity"
+55-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:53:13-48
+56            android:configChanges="keyboardHidden|orientation|screenSize"
+56-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:54:13-74
+57            android:launchMode="singleTop"
+57-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:55:13-43
+58            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+58-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:56:13-71
+59
+60            <!-- android:theme="@style/NoteTheme" -->
+61
+62            <intent-filter>
+62-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:60:13-67:29
+63                <action android:name="android.intent.action.VIEW" />
+63-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:61:17-69
+63-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:61:25-66
+64
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:63:17-76
+65-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:63:27-73
+66
+67                <data android:mimeType="vnd.android.cursor.item/text_note" />
+67-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:65:17-78
+67-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:65:23-75
+68                <data android:mimeType="vnd.android.cursor.item/call_note" />
+68-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:65:17-78
+68-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:65:23-75
+69            </intent-filter>
+70            <intent-filter>
+70-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:68:13-75:29
+71                <action android:name="android.intent.action.INSERT_OR_EDIT" />
+71-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:69:17-79
+71-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:69:25-76
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:63:17-76
+73-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:63:27-73
 74
-75            <meta-data
-75-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:72:13-74:54
-76                android:name="android.app.searchable"
-76-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:73:17-54
-77                android:resource="@xml/searchable" />
-77-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:74:17-51
-78        </activity>
-79
-80        <provider
-80-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:77:9-80:43
-81            android:name="net.micode.notes.data.NotesProvider"
-81-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:78:13-47
-82            android:authorities="micode_notes"
-82-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:79:13-47
-83            android:multiprocess="true" />
-83-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:80:13-40
-84
-85        <receiver
-85-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:82:9-94:20
-86            android:name="net.micode.notes.widget.NoteWidgetProvider_2x"
-86-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:83:13-57
-87            android:label="@string/app_widget2x2" >
-87-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:84:13-50
-88            <intent-filter>
-88-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:85:13-89:29
-89                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-89-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:86:17-84
-89-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:86:25-81
-90                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
-90-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:87:17-85
-90-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:87:25-82
-91                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
-91-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:88:17-85
-91-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:88:25-82
-92            </intent-filter>
+75                <data android:mimeType="vnd.android.cursor.item/text_note" />
+75-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:65:17-78
+75-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:65:23-75
+76                <data android:mimeType="vnd.android.cursor.item/call_note" />
+76-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:65:17-78
+76-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:65:23-75
+77            </intent-filter>
+78            <intent-filter>
+78-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:76:13-80:29
+79                <action android:name="android.intent.action.SEARCH" />
+79-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:77:17-71
+79-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:77:25-68
+80
+81                <category android:name="android.intent.category.DEFAULT" />
+81-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:63:17-76
+81-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:63:27-73
+82            </intent-filter>
+83
+84            <meta-data
+84-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:82:13-84:54
+85                android:name="android.app.searchable"
+85-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:83:17-54
+86                android:resource="@xml/searchable" />
+86-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:84:17-51
+87        </activity>
+88
+89        <provider
+89-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:87:9-90:43
+90            android:name="net.micode.notes.data.NotesProvider"
+90-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:88:13-47
+91            android:authorities="micode_notes"
+91-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:89:13-47
+92            android:multiprocess="true" />
+92-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:90:13-40
 93
-94            <meta-data
-94-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:91:13-93:58
-95                android:name="android.appwidget.provider"
-95-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:92:17-58
-96                android:resource="@xml/widget_2x_info" />
-96-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:93:17-55
-97        </receiver>
-98        <receiver
-98-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:95:9-107:20
-99            android:name="net.micode.notes.widget.NoteWidgetProvider_4x"
-99-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:96:13-57
-100            android:label="@string/app_widget4x4" >
-100-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:97:13-50
-101            <intent-filter>
-101-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:85:13-89:29
-102                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-102-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:86:17-84
-102-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:86:25-81
-103                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
-103-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:87:17-85
-103-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:87:25-82
-104                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
-104-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:88:17-85
-104-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:88:25-82
-105            </intent-filter>
-106
-107            <meta-data
-107-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:91:13-93:58
-108                android:name="android.appwidget.provider"
-108-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:92:17-58
-109                android:resource="@xml/widget_4x_info" />
-109-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:93:17-55
-110        </receiver>
-111        <receiver android:name="net.micode.notes.ui.AlarmInitReceiver" >
-111-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:108:9-112:20
-111-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:108:19-55
-112            <intent-filter>
-112-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:109:13-111:29
-113                <action android:name="android.intent.action.BOOT_COMPLETED" />
-113-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:110:17-79
-113-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:110:25-76
+94        <receiver
+94-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:92:9-104:20
+95            android:name="net.micode.notes.widget.NoteWidgetProvider_2x"
+95-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:93:13-57
+96            android:label="@string/app_widget2x2" >
+96-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:94:13-50
+97            <intent-filter>
+97-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:95:13-99:29
+98                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+98-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:96:17-84
+98-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:96:25-81
+99                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+99-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:97:17-85
+99-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:97:25-82
+100                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
+100-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:98:17-85
+100-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:98:25-82
+101            </intent-filter>
+102
+103            <meta-data
+103-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:101:13-103:58
+104                android:name="android.appwidget.provider"
+104-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:102:17-58
+105                android:resource="@xml/widget_2x_info" />
+105-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:103:17-55
+106        </receiver>
+107        <receiver
+107-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:105:9-117:20
+108            android:name="net.micode.notes.widget.NoteWidgetProvider_4x"
+108-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:106:13-57
+109            android:label="@string/app_widget4x4" >
+109-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:107:13-50
+110            <intent-filter>
+110-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:95:13-99:29
+111                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+111-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:96:17-84
+111-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:96:25-81
+112                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+112-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:97:17-85
+112-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:97:25-82
+113                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
+113-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:98:17-85
+113-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:98:25-82
 114            </intent-filter>
-115        </receiver>
-116        <receiver
-116-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:113:9-115:50
-117            android:name="net.micode.notes.ui.AlarmReceiver"
-117-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:114:13-45
-118            android:process=":remote" />
-118-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:115:13-38
-119
-120        <activity
-120-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:117:9-121:87
-121            android:name="net.micode.notes.ui.AlarmAlertActivity"
-121-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:118:13-50
-122            android:label="@string/app_name"
-122-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:119:13-45
-123            android:launchMode="singleInstance"
-123-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:120:13-48
-124            android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar" />
-124-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:121:13-75
-125        <activity
-125-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:122:9-126:72
-126            android:name="net.micode.notes.ui.NotesPreferenceActivity"
-126-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:123:13-55
-127            android:label="@string/preferences_title"
-127-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:124:13-54
-128            android:launchMode="singleTop"
-128-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:125:13-43
-129            android:theme="@android:style/Theme.Holo.Light" />
-129-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:126:13-60
-130
-131        <service
-131-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:128:9-130:48
-132            android:name="net.micode.notes.gtask.remote.GTaskSyncService"
-132-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:129:13-58
-133            android:exported="false" />
-133-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:130:13-37
-134
-135        <meta-data
-135-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:132:9-134:52
-136            android:name="android.app.default_searchable"
-136-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:133:13-58
-137            android:value=".ui.NoteEditActivity" />
-137-->F:\Android_project\minotes\app\src\main\AndroidManifest.xml:134:13-49
-138    </application>
+115
+116            <meta-data
+116-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:101:13-103:58
+117                android:name="android.appwidget.provider"
+117-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:102:17-58
+118                android:resource="@xml/widget_4x_info" />
+118-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:103:17-55
+119        </receiver>
+120        <receiver android:name="net.micode.notes.ui.AlarmInitReceiver" >
+120-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:118:9-122:20
+120-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:118:19-55
+121            <intent-filter>
+121-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:119:13-121:29
+122                <action android:name="android.intent.action.BOOT_COMPLETED" />
+122-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:120:17-79
+122-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:120:25-76
+123            </intent-filter>
+124        </receiver>
+125        <receiver
+125-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:123:9-125:50
+126            android:name="net.micode.notes.ui.AlarmReceiver"
+126-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:124:13-45
+127            android:process=":remote" />
+127-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:125:13-38
+128
+129        <activity
+129-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:127:9-131:87
+130            android:name="net.micode.notes.ui.AlarmAlertActivity"
+130-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:128:13-50
+131            android:label="@string/app_name"
+131-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:129:13-45
+132            android:launchMode="singleInstance"
+132-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:130:13-48
+133            android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar" />
+133-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:131:13-75
+134        <activity
+134-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:132:9-136:72
+135            android:name="net.micode.notes.ui.NotesPreferenceActivity"
+135-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:133:13-55
+136            android:label="@string/preferences_title"
+136-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:134:13-54
+137            android:launchMode="singleTop"
+137-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:135:13-43
+138            android:theme="@android:style/Theme.Holo.Light" />
+138-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:136:13-60
 139
-140</manifest>
+140        <service
+140-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:138:9-140:48
+141            android:name="net.micode.notes.gtask.remote.GTaskSyncService"
+141-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:139:13-58
+142            android:exported="false" />
+142-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:140:13-37
+143
+144        <meta-data
+144-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:142:9-144:52
+145            android:name="android.app.default_searchable"
+145-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:143:13-58
+146            android:value=".ui.NoteEditActivity" />
+146-->D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:144:13-49
+147    </application>
+148
+149</manifest>

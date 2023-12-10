@@ -1,334 +1,346 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:2:1-137:12
-INJECTED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:2:1-137:12
-INJECTED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:2:1-137:12
-INJECTED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:2:1-137:12
-MERGED from [com.android.databinding:viewbinding:7.0.2] C:\Users\15000\.gradle\caches\transforms-3\391857fb9ecfdd92c27997809d9092e8\transformed\viewbinding-7.0.2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\8fd11623966bb0584e113cba6c369170\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\01ce58cb5dec02ff2dcf5e31777eb70a\transformed\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\d09347d7015ac919f27baecb2a4aa9b5\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\32d53bd70fb6aafefab88a38711e2b80\transformed\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\d6cf91d70e9f90ed48c03cc4e82d4a1f\transformed\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\a924792ed09f27f71b341992b008677d\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\335934a6384f95abb2560c4dcdf086ba\transformed\loader-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\a22f9ff71f1edf1fe4f66b386fb8e4a4\transformed\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\362c21bf486fe36d808c9907a31ee884\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\bbd22f0e830f120d1d7022e6a4a0b2fb\transformed\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\2ea285b7ae91134af2ca4bb77048a56f\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\fdf1ba2d2c9953c3edf5b35f99d479af\transformed\customview-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\3b91920cf64056fe02a23d5f9234bf3e\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\5278c2e8b81630465bb68ddee38799fd\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\5d596afbbf514aaec8702eb472ca97f3\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\5469d3acc753b2c845dfdf96e65ea703\transformed\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\15000\.gradle\caches\transforms-3\24b7454e8c63cb44018c3eb80150e376\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\a95499803a806bc20d1fd4638c0c9eec\transformed\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\ebc0c7c92882fadc8fdb9f45927fc821\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\ab4ac626fa615bb51ff79c5f5a113f59\transformed\print-28.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\15000\.gradle\caches\transforms-3\b2c59d30b7c8b57319743475697d8ad1\transformed\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\15000\.gradle\caches\transforms-3\315627340ffe1ce39273a67babb101e6\transformed\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\15000\.gradle\caches\transforms-3\3d30d1dfc52eef7a30e76658177aa636\transformed\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\15000\.gradle\caches\transforms-3\9144f778eb61599c0354b3e5bd6c8d2f\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\00c853c6be18376f60855f1362b85a1c\transformed\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:2:1-137:12
-INJECTED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:2:1-137:12
-INJECTED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:2:1-137:12
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:1-147:12
+INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:1-147:12
+INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:1-147:12
+INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:1-147:12
+MERGED from [com.android.databinding:viewbinding:7.0.2] C:\Users\86136\.gradle\caches\transforms-3\391857fb9ecfdd92c27997809d9092e8\transformed\viewbinding-7.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\8fd11623966bb0584e113cba6c369170\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\01ce58cb5dec02ff2dcf5e31777eb70a\transformed\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\d09347d7015ac919f27baecb2a4aa9b5\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\32d53bd70fb6aafefab88a38711e2b80\transformed\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\d6cf91d70e9f90ed48c03cc4e82d4a1f\transformed\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\a924792ed09f27f71b341992b008677d\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\335934a6384f95abb2560c4dcdf086ba\transformed\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\a22f9ff71f1edf1fe4f66b386fb8e4a4\transformed\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\362c21bf486fe36d808c9907a31ee884\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\bbd22f0e830f120d1d7022e6a4a0b2fb\transformed\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\2ea285b7ae91134af2ca4bb77048a56f\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\fdf1ba2d2c9953c3edf5b35f99d479af\transformed\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\3b91920cf64056fe02a23d5f9234bf3e\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\5278c2e8b81630465bb68ddee38799fd\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\5d596afbbf514aaec8702eb472ca97f3\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\5469d3acc753b2c845dfdf96e65ea703\transformed\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\86136\.gradle\caches\transforms-3\24b7454e8c63cb44018c3eb80150e376\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\a95499803a806bc20d1fd4638c0c9eec\transformed\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\ebc0c7c92882fadc8fdb9f45927fc821\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\ab4ac626fa615bb51ff79c5f5a113f59\transformed\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\86136\.gradle\caches\transforms-3\b2c59d30b7c8b57319743475697d8ad1\transformed\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\86136\.gradle\caches\transforms-3\315627340ffe1ce39273a67babb101e6\transformed\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\86136\.gradle\caches\transforms-3\3d30d1dfc52eef7a30e76658177aa636\transformed\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\86136\.gradle\caches\transforms-3\9144f778eb61599c0354b3e5bd6c8d2f\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\00c853c6be18376f60855f1362b85a1c\transformed\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:1-147:12
+INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:1-147:12
+INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:1-147:12
 	package
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:4:5-31
-		INJECTED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:4:5-31
+		INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:6:5-30
-		INJECTED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:3:5-51
 	xmlns:android
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:5:5-28
-		INJECTED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml
 uses-sdk
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:8:5-44
-INJECTED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:8:5-44
-INJECTED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:8:5-44
-MERGED from [com.android.databinding:viewbinding:7.0.2] C:\Users\15000\.gradle\caches\transforms-3\391857fb9ecfdd92c27997809d9092e8\transformed\viewbinding-7.0.2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.databinding:viewbinding:7.0.2] C:\Users\15000\.gradle\caches\transforms-3\391857fb9ecfdd92c27997809d9092e8\transformed\viewbinding-7.0.2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\8fd11623966bb0584e113cba6c369170\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\8fd11623966bb0584e113cba6c369170\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\01ce58cb5dec02ff2dcf5e31777eb70a\transformed\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\01ce58cb5dec02ff2dcf5e31777eb70a\transformed\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\d09347d7015ac919f27baecb2a4aa9b5\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\d09347d7015ac919f27baecb2a4aa9b5\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\32d53bd70fb6aafefab88a38711e2b80\transformed\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\32d53bd70fb6aafefab88a38711e2b80\transformed\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\d6cf91d70e9f90ed48c03cc4e82d4a1f\transformed\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\d6cf91d70e9f90ed48c03cc4e82d4a1f\transformed\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\a924792ed09f27f71b341992b008677d\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\a924792ed09f27f71b341992b008677d\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\335934a6384f95abb2560c4dcdf086ba\transformed\loader-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\335934a6384f95abb2560c4dcdf086ba\transformed\loader-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\a22f9ff71f1edf1fe4f66b386fb8e4a4\transformed\viewpager-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\a22f9ff71f1edf1fe4f66b386fb8e4a4\transformed\viewpager-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\362c21bf486fe36d808c9907a31ee884\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\362c21bf486fe36d808c9907a31ee884\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\bbd22f0e830f120d1d7022e6a4a0b2fb\transformed\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\bbd22f0e830f120d1d7022e6a4a0b2fb\transformed\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\2ea285b7ae91134af2ca4bb77048a56f\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\2ea285b7ae91134af2ca4bb77048a56f\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\fdf1ba2d2c9953c3edf5b35f99d479af\transformed\customview-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\fdf1ba2d2c9953c3edf5b35f99d479af\transformed\customview-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\3b91920cf64056fe02a23d5f9234bf3e\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\3b91920cf64056fe02a23d5f9234bf3e\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\5278c2e8b81630465bb68ddee38799fd\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\5278c2e8b81630465bb68ddee38799fd\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\5d596afbbf514aaec8702eb472ca97f3\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\5d596afbbf514aaec8702eb472ca97f3\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\5469d3acc753b2c845dfdf96e65ea703\transformed\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\5469d3acc753b2c845dfdf96e65ea703\transformed\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\15000\.gradle\caches\transforms-3\24b7454e8c63cb44018c3eb80150e376\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\15000\.gradle\caches\transforms-3\24b7454e8c63cb44018c3eb80150e376\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\a95499803a806bc20d1fd4638c0c9eec\transformed\documentfile-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\a95499803a806bc20d1fd4638c0c9eec\transformed\documentfile-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\ebc0c7c92882fadc8fdb9f45927fc821\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\ebc0c7c92882fadc8fdb9f45927fc821\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\ab4ac626fa615bb51ff79c5f5a113f59\transformed\print-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\ab4ac626fa615bb51ff79c5f5a113f59\transformed\print-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\15000\.gradle\caches\transforms-3\b2c59d30b7c8b57319743475697d8ad1\transformed\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\15000\.gradle\caches\transforms-3\b2c59d30b7c8b57319743475697d8ad1\transformed\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\15000\.gradle\caches\transforms-3\315627340ffe1ce39273a67babb101e6\transformed\livedata-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\15000\.gradle\caches\transforms-3\315627340ffe1ce39273a67babb101e6\transformed\livedata-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\15000\.gradle\caches\transforms-3\3d30d1dfc52eef7a30e76658177aa636\transformed\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\15000\.gradle\caches\transforms-3\3d30d1dfc52eef7a30e76658177aa636\transformed\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\15000\.gradle\caches\transforms-3\9144f778eb61599c0354b3e5bd6c8d2f\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\15000\.gradle\caches\transforms-3\9144f778eb61599c0354b3e5bd6c8d2f\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\00c853c6be18376f60855f1362b85a1c\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\00c853c6be18376f60855f1362b85a1c\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
-INJECTED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:8:5-44
-INJECTED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:8:5-44
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:8:5-44
+INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:8:5-44
+INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:8:5-44
+MERGED from [com.android.databinding:viewbinding:7.0.2] C:\Users\86136\.gradle\caches\transforms-3\391857fb9ecfdd92c27997809d9092e8\transformed\viewbinding-7.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.databinding:viewbinding:7.0.2] C:\Users\86136\.gradle\caches\transforms-3\391857fb9ecfdd92c27997809d9092e8\transformed\viewbinding-7.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\8fd11623966bb0584e113cba6c369170\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\8fd11623966bb0584e113cba6c369170\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\01ce58cb5dec02ff2dcf5e31777eb70a\transformed\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\01ce58cb5dec02ff2dcf5e31777eb70a\transformed\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\d09347d7015ac919f27baecb2a4aa9b5\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\d09347d7015ac919f27baecb2a4aa9b5\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\32d53bd70fb6aafefab88a38711e2b80\transformed\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\32d53bd70fb6aafefab88a38711e2b80\transformed\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\d6cf91d70e9f90ed48c03cc4e82d4a1f\transformed\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\d6cf91d70e9f90ed48c03cc4e82d4a1f\transformed\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\a924792ed09f27f71b341992b008677d\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\a924792ed09f27f71b341992b008677d\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\335934a6384f95abb2560c4dcdf086ba\transformed\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\335934a6384f95abb2560c4dcdf086ba\transformed\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\a22f9ff71f1edf1fe4f66b386fb8e4a4\transformed\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\a22f9ff71f1edf1fe4f66b386fb8e4a4\transformed\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\362c21bf486fe36d808c9907a31ee884\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\362c21bf486fe36d808c9907a31ee884\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\bbd22f0e830f120d1d7022e6a4a0b2fb\transformed\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\bbd22f0e830f120d1d7022e6a4a0b2fb\transformed\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\2ea285b7ae91134af2ca4bb77048a56f\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\2ea285b7ae91134af2ca4bb77048a56f\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\fdf1ba2d2c9953c3edf5b35f99d479af\transformed\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\fdf1ba2d2c9953c3edf5b35f99d479af\transformed\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\3b91920cf64056fe02a23d5f9234bf3e\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\3b91920cf64056fe02a23d5f9234bf3e\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\5278c2e8b81630465bb68ddee38799fd\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\5278c2e8b81630465bb68ddee38799fd\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\5d596afbbf514aaec8702eb472ca97f3\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\5d596afbbf514aaec8702eb472ca97f3\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\5469d3acc753b2c845dfdf96e65ea703\transformed\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\5469d3acc753b2c845dfdf96e65ea703\transformed\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\86136\.gradle\caches\transforms-3\24b7454e8c63cb44018c3eb80150e376\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\86136\.gradle\caches\transforms-3\24b7454e8c63cb44018c3eb80150e376\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\a95499803a806bc20d1fd4638c0c9eec\transformed\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\a95499803a806bc20d1fd4638c0c9eec\transformed\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\ebc0c7c92882fadc8fdb9f45927fc821\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\ebc0c7c92882fadc8fdb9f45927fc821\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\ab4ac626fa615bb51ff79c5f5a113f59\transformed\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\ab4ac626fa615bb51ff79c5f5a113f59\transformed\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\86136\.gradle\caches\transforms-3\b2c59d30b7c8b57319743475697d8ad1\transformed\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\86136\.gradle\caches\transforms-3\b2c59d30b7c8b57319743475697d8ad1\transformed\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\86136\.gradle\caches\transforms-3\315627340ffe1ce39273a67babb101e6\transformed\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\86136\.gradle\caches\transforms-3\315627340ffe1ce39273a67babb101e6\transformed\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\86136\.gradle\caches\transforms-3\3d30d1dfc52eef7a30e76658177aa636\transformed\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\86136\.gradle\caches\transforms-3\3d30d1dfc52eef7a30e76658177aa636\transformed\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\86136\.gradle\caches\transforms-3\9144f778eb61599c0354b3e5bd6c8d2f\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\86136\.gradle\caches\transforms-3\9144f778eb61599c0354b3e5bd6c8d2f\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\00c853c6be18376f60855f1362b85a1c\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\00c853c6be18376f60855f1362b85a1c\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:8:5-44
+INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:8:5-44
 	android:targetSdkVersion
-		INJECTED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:8:5-44
-		INJECTED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:8:5-44
+		INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:8:15-41
-		INJECTED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:8:15-41
+		INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:10:5-81
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:10:5-81
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:10:22-78
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:10:22-78
 uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:11:5-88
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:11:5-88
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:11:22-85
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:11:22-85
 uses-permission#android.permission.INTERNET
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:12:5-67
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:12:5-67
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:12:22-64
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:12:22-64
 uses-permission#android.permission.READ_CONTACTS
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:13:5-72
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:13:5-72
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:13:22-69
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:13:22-69
 uses-permission#android.permission.MANAGE_ACCOUNTS
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:14:5-74
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:14:5-74
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:14:22-71
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:14:22-71
 uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:15:5-80
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:15:5-80
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:15:22-77
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:15:22-77
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:16:5-71
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:16:5-71
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:16:22-68
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:16:22-68
 uses-permission#android.permission.USE_CREDENTIALS
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:17:5-74
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:17:5-74
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:17:22-71
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:17:22-71
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:18:5-81
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:18:5-81
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:18:22-78
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:18:22-78
 application
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:20:5-135:19
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\5d596afbbf514aaec8702eb472ca97f3\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\5d596afbbf514aaec8702eb472ca97f3\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:20:5-145:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\5d596afbbf514aaec8702eb472ca97f3\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\5d596afbbf514aaec8702eb472ca97f3\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\15000\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\86136\.gradle\caches\transforms-3\192ad8f6a0f651ff9f10305663e68198\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:22:9-41
-	android:icon
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:21:9-42
-activity#net.micode.notes.ui.SplashActivity
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:24:9-33:20
-	android:configChanges
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:26:13-74
-	android:theme
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:27:13-59
-	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:25:13-46
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:28:13-32:29
-action#android.intent.action.MAIN
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:29:17-69
-	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:29:25-66
-category#android.intent.category.LAUNCHER
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:31:17-77
-	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:31:27-74
-activity#net.micode.notes.ui.NotesListActivity
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:34:9-41:64
-	android:label
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:37:13-45
-	android:launchMode
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:38:13-43
-	android:windowSoftInputMode
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:41:13-52
-	android:uiOptions
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:40:13-57
-	android:configChanges
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:36:13-74
-	android:theme
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:39:13-71
-	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:35:13-49
-activity#net.micode.notes.ui.NoteEditActivity
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:42:9-75:20
-	android:launchMode
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:45:13-43
-	android:configChanges
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:44:13-74
-	android:theme
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:46:13-71
-	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:43:13-48
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.item/call_note+data:mimeType:vnd.android.cursor.item/text_note
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:50:13-57:29
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:22:9-41
 	tools:ignore
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:50:28-58
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:23:9-33
+	android:icon
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:21:9-42
+activity#net.micode.notes.ui.ShowResultActivity
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:26:9-30:47
+	android:label
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:30:17-44
+	android:configChanges
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:28:17-78
+	android:theme
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:29:17-75
+	android:name
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:27:17-54
+activity#net.micode.notes.ui.SplashActivity
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:34:9-43:20
+	android:configChanges
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:36:13-74
+	android:theme
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:37:13-59
+	android:name
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:35:13-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:38:13-42:29
+action#android.intent.action.MAIN
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:41:27-74
+activity#net.micode.notes.ui.NotesListActivity
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:44:9-51:64
+	android:label
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:47:13-45
+	android:launchMode
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:48:13-43
+	android:windowSoftInputMode
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:51:13-52
+	android:uiOptions
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:50:13-57
+	android:configChanges
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:46:13-74
+	android:theme
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:49:13-71
+	android:name
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:45:13-49
+activity#net.micode.notes.ui.NoteEditActivity
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:52:9-85:20
+	android:launchMode
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:55:13-43
+	android:configChanges
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:54:13-74
+	android:theme
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:56:13-71
+	android:name
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:53:13-48
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.item/call_note+data:mimeType:vnd.android.cursor.item/text_note
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:60:13-67:29
+	tools:ignore
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:60:28-58
 action#android.intent.action.VIEW
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:51:17-69
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:61:17-69
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:51:25-66
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:61:25-66
 category#android.intent.category.DEFAULT
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:53:17-76
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:63:17-76
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:53:27-73
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:63:27-73
 data
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:55:17-78
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:65:17-78
 	android:mimeType
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:55:23-75
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:65:23-75
 intent-filter#action:name:android.intent.action.INSERT_OR_EDIT+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.item/call_note+data:mimeType:vnd.android.cursor.item/text_note
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:58:13-65:29
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:68:13-75:29
 action#android.intent.action.INSERT_OR_EDIT
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:59:17-79
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:69:17-79
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:59:25-76
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:69:25-76
 intent-filter#action:name:android.intent.action.SEARCH+category:name:android.intent.category.DEFAULT
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:66:13-70:29
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:76:13-80:29
 action#android.intent.action.SEARCH
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:67:17-71
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:77:17-71
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:67:25-68
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:77:25-68
 meta-data#android.app.searchable
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:72:13-74:54
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:82:13-84:54
 	android:resource
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:74:17-51
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:84:17-51
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:73:17-54
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:83:17-54
 provider#net.micode.notes.data.NotesProvider
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:77:9-80:43
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:87:9-90:43
 	android:authorities
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:79:13-47
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:89:13-47
 	android:multiprocess
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:80:13-40
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:90:13-40
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:78:13-47
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:88:13-47
 receiver#net.micode.notes.widget.NoteWidgetProvider_2x
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:82:9-94:20
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:92:9-104:20
 	android:label
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:84:13-50
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:94:13-50
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:83:13-57
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:93:13-57
 intent-filter#action:name:android.appwidget.action.APPWIDGET_DELETED+action:name:android.appwidget.action.APPWIDGET_UPDATE+action:name:android.intent.action.PRIVACY_MODE_CHANGED
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:85:13-89:29
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:95:13-99:29
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:86:17-84
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:96:17-84
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:86:25-81
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:96:25-81
 action#android.appwidget.action.APPWIDGET_DELETED
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:87:17-85
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:97:17-85
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:87:25-82
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:97:25-82
 action#android.intent.action.PRIVACY_MODE_CHANGED
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:88:17-85
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:98:17-85
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:88:25-82
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:98:25-82
 meta-data#android.appwidget.provider
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:91:13-93:58
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:101:13-103:58
 	android:resource
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:93:17-55
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:103:17-55
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:92:17-58
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:102:17-58
 receiver#net.micode.notes.widget.NoteWidgetProvider_4x
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:95:9-107:20
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:105:9-117:20
 	android:label
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:97:13-50
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:107:13-50
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:96:13-57
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:106:13-57
 receiver#net.micode.notes.ui.AlarmInitReceiver
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:108:9-112:20
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:118:9-122:20
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:108:19-55
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:118:19-55
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:109:13-111:29
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:119:13-121:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:110:17-79
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:120:17-79
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:110:25-76
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:120:25-76
 receiver#net.micode.notes.ui.AlarmReceiver
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:113:9-115:50
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:123:9-125:50
 	android:process
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:115:13-38
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:125:13-38
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:114:13-45
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:124:13-45
 activity#net.micode.notes.ui.AlarmAlertActivity
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:117:9-121:87
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:127:9-131:87
 	android:label
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:119:13-45
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:129:13-45
 	android:launchMode
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:120:13-48
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:130:13-48
 	android:theme
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:121:13-75
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:131:13-75
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:118:13-50
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:128:13-50
 activity#net.micode.notes.ui.NotesPreferenceActivity
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:122:9-126:72
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:132:9-136:72
 	android:label
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:124:13-54
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:134:13-54
 	android:launchMode
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:125:13-43
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:135:13-43
 	android:theme
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:126:13-60
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:136:13-60
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:123:13-55
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:133:13-55
 service#net.micode.notes.gtask.remote.GTaskSyncService
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:128:9-130:48
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:138:9-140:48
 	android:exported
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:130:13-37
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:140:13-37
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:129:13-58
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:139:13-58
 meta-data#android.app.default_searchable
-ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:132:9-134:52
+ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:142:9-144:52
 	android:value
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:134:13-49
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:144:13-49
 	android:name
-		ADDED from F:\Android_project\minotes\app\src\main\AndroidManifest.xml:133:13-58
+		ADDED from D:\Android\Projects\Notes1\app\src\main\AndroidManifest.xml:143:13-58

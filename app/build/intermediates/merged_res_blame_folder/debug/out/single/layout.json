@@ -1,70 +1,74 @@
 [
     {
-        "merged": "F:\\Android_project\\minotes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash.xml",
-        "source": "F:\\Android_project\\minotes\\app\\src\\main\\res\\layout\\activity_splash.xml"
+        "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\note_list_dropdown_menu.xml",
+        "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\note_list_dropdown_menu.xml"
     },
     {
-        "merged": "F:\\Android_project\\minotes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\add_account_text.xml",
-        "source": "F:\\Android_project\\minotes\\app\\src\\main\\res\\layout\\add_account_text.xml"
+        "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\account_dialog_title.xml",
+        "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\account_dialog_title.xml"
     },
     {
-        "merged": "F:\\Android_project\\minotes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\note_edit.xml",
-        "source": "F:\\Android_project\\minotes\\app\\src\\main\\res\\layout\\note_edit.xml"
+        "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\note_list.xml",
+        "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\note_list.xml"
     },
     {
-        "merged": "F:\\Android_project\\minotes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\widget_4x.xml",
-        "source": "F:\\Android_project\\minotes\\app\\src\\main\\res\\layout\\widget_4x.xml"
+        "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\datetime_picker.xml",
+        "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\datetime_picker.xml"
     },
     {
-        "merged": "F:\\Android_project\\minotes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\acticity_word.xml",
-        "source": "F:\\Android_project\\minotes\\app\\src\\main\\res\\layout\\acticity_word.xml"
+        "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\note_edit.xml",
+        "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\note_edit.xml"
     },
     {
-        "merged": "F:\\Android_project\\minotes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_edit_text.xml",
-        "source": "F:\\Android_project\\minotes\\app\\src\\main\\res\\layout\\dialog_edit_text.xml"
+        "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\note_item.xml",
+        "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\note_item.xml"
     },
     {
-        "merged": "F:\\Android_project\\minotes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\settings_header.xml",
-        "source": "F:\\Android_project\\minotes\\app\\src\\main\\res\\layout\\settings_header.xml"
+        "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash.xml",
+        "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
-        "merged": "F:\\Android_project\\minotes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\note_list_dropdown_menu.xml",
-        "source": "F:\\Android_project\\minotes\\app\\src\\main\\res\\layout\\note_list_dropdown_menu.xml"
+        "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_edit.xml",
+        "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\dialog_edit.xml"
     },
     {
-        "merged": "F:\\Android_project\\minotes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\folder_list_item.xml",
-        "source": "F:\\Android_project\\minotes\\app\\src\\main\\res\\layout\\folder_list_item.xml"
+        "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\folder_list_item.xml",
+        "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\folder_list_item.xml"
     },
     {
-        "merged": "F:\\Android_project\\minotes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\note_edit_list_item.xml",
-        "source": "F:\\Android_project\\minotes\\app\\src\\main\\res\\layout\\note_edit_list_item.xml"
+        "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\widget_4x.xml",
+        "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\widget_4x.xml"
     },
     {
-        "merged": "F:\\Android_project\\minotes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\widget_2x.xml",
-        "source": "F:\\Android_project\\minotes\\app\\src\\main\\res\\layout\\widget_2x.xml"
+        "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_edit_text.xml",
+        "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\dialog_edit_text.xml"
     },
     {
-        "merged": "F:\\Android_project\\minotes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_edit.xml",
-        "source": "F:\\Android_project\\minotes\\app\\src\\main\\res\\layout\\dialog_edit.xml"
+        "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\note_edit_list_item.xml",
+        "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\note_edit_list_item.xml"
     },
     {
-        "merged": "F:\\Android_project\\minotes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\note_item.xml",
-        "source": "F:\\Android_project\\minotes\\app\\src\\main\\res\\layout\\note_item.xml"
+        "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\acticity_word.xml",
+        "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\acticity_word.xml"
     },
     {
-        "merged": "F:\\Android_project\\minotes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\datetime_picker.xml",
-        "source": "F:\\Android_project\\minotes\\app\\src\\main\\res\\layout\\datetime_picker.xml"
+        "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\settings_header.xml",
+        "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\settings_header.xml"
     },
     {
-        "merged": "F:\\Android_project\\minotes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\note_list_footer.xml",
-        "source": "F:\\Android_project\\minotes\\app\\src\\main\\res\\layout\\note_list_footer.xml"
+        "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\widget_2x.xml",
+        "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\widget_2x.xml"
     },
     {
-        "merged": "F:\\Android_project\\minotes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\account_dialog_title.xml",
-        "source": "F:\\Android_project\\minotes\\app\\src\\main\\res\\layout\\account_dialog_title.xml"
+        "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\add_account_text.xml",
+        "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\add_account_text.xml"
     },
     {
-        "merged": "F:\\Android_project\\minotes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\note_list.xml",
-        "source": "F:\\Android_project\\minotes\\app\\src\\main\\res\\layout\\note_list.xml"
+        "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\note_list_footer.xml",
+        "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\note_list_footer.xml"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\search_list.xml",
+        "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\layout\\search_list.xml"
     }
 ]
