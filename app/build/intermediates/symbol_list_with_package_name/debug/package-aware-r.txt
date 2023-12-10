@@ -712,6 +712,7 @@ id bottom
 id btn_new_note
 id btn_set_bg_color
 id buttonPanel
+id button_play_audio
 id cb_edit_item
 id center
 id center_horizontal
@@ -787,6 +788,7 @@ id menu_delete_remind
 id menu_export_text
 id menu_font_size
 id menu_hutao
+id menu_insert_audio
 id menu_keli
 id menu_list_mode
 id menu_moren

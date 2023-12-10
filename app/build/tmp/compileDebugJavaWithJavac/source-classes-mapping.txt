@@ -97,6 +97,8 @@ net/micode/notes/ui/NoteEditActivity.java
  net.micode.notes.ui.NoteEditActivity$4
  net.micode.notes.ui.NoteEditActivity$5
  net.micode.notes.ui.NoteEditActivity$6
+ net.micode.notes.ui.NoteEditActivity$7
+ net.micode.notes.ui.NoteEditActivity$8
  net.micode.notes.ui.NoteEditActivity$HeadViewHolder
 net/micode/notes/ui/EditDialog.java
  net.micode.notes.ui.EditDialog

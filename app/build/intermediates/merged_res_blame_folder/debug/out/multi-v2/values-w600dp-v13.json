@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
+            "outputFile": "F:\\Android_project\\minotes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "source": "F:\\Android_project\\minotes\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "1",
-                        "startOffsets": "13",
+                        "startOffsets": "14",
                         "endColumns": "54",
-                        "endOffsets": "66"
+                        "endOffsets": "67"
                     },
                     "to": {
                         "startLines": "2",
