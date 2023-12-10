@@ -78,6 +78,12 @@
                 android:layout_height="7dip"
                 android:background="@drawable/bg_color_btn_mask" />
 
+            <Button
+                android:id="@+id/button_play_audio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="播放录音" />
+
             <ScrollView
                 android:layout_width="fill_parent"
                 android:layout_height="0dip"
@@ -121,6 +127,8 @@
                 android:layout_width="fill_parent"
                 android:layout_height="7dip"
                 android:background="@drawable/bg_color_btn_mask" />
+
+
         </LinearLayout>
     </LinearLayout>
 
@@ -432,5 +440,9 @@
         android:layout_marginLeft="500px"
         android:textSize="15sp"
         android:text="字数：0" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </FrameLayout>

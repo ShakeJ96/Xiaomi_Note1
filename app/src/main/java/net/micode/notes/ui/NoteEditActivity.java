@@ -33,6 +33,9 @@ import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Paint;
+import android.media.MediaPlayer;
+import java.io.File;
+import java.io.IOException;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -100,6 +103,7 @@ import java.util.regex.Pattern;
 public class NoteEditActivity extends AppCompatActivity implements OnClickListener,
         NoteSettingChangedListener, OnTextViewChangeListener {
     private int mode;
+    private android.media.MediaRecorder mMediaRecorder = new android.media.MediaRecorder();
 
     private class HeadViewHolder {
         public TextView tvModified;
@@ -179,6 +183,7 @@ public class NoteEditActivity extends AppCompatActivity implements OnClickListen
     private Pattern mPattern;
     private final int PHOTO_REQUEST = 1;//请求码
 
+    private static final int RECORD_REQUEST = 1987;//录音程序请求码
     private NoteEditText editText;
     private TextView textView;
 
@@ -804,7 +809,9 @@ public class NoteEditActivity extends AppCompatActivity implements OnClickListen
                 mode=2;
                 getWindow().setBackgroundDrawableResource(R.drawable.mi1);
                 break;
-
+            case R.id.menu_insert_audio:
+                Intent intent = new Intent(MediaStore.Audio.Media.RECORD_SOUND_ACTION);
+                startActivityForResult(intent, RECORD_REQUEST);
             default:
                 break;
 
@@ -1232,12 +1239,40 @@ public class NoteEditActivity extends AppCompatActivity implements OnClickListen
                     Toast.makeText(NoteEditActivity.this, "获取图片失败", Toast.LENGTH_SHORT).show();
                 }
                 break;
+            case RECORD_REQUEST:
+                Uri audioUri = intent.getData();
+                Button playButton = findViewById(R.id.button_play_audio);
+                playButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        // 在按钮点击事件中处理播放音频的逻辑
+                        playAudio(audioUri);
+                    }
+                });
+                break;
             default:
                 break;
         }
     }
+    private void playAudio(Uri audioUri) {
+        try {
+            MediaPlayer mediaPlayer = new MediaPlayer();
+            mediaPlayer.setDataSource(getApplicationContext(), audioUri);
+            mediaPlayer.prepare();
+            mediaPlayer.start();
 
-
+            // 当音频播放完成后，可以在需要的地方添加监听器
+            mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                @Override
+                public void onCompletion(MediaPlayer mp) {
+                    // 音频播放完成后的操作
+                }
+            });
+        } catch (IOException e) {
+            e.printStackTrace();
+            // 处理播放音频时的异常情况
+        }
+    }
     //获取文件的real path
     public String getPath(final Context context, final Uri uri) {
 
