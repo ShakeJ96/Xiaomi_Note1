@@ -42,13 +42,14 @@
         </LinearLayout>
     </FrameLayout>
 
-    <Button
+    <!--版本问题，目前已经废弃了~-->
+<!--    <Button
         android:id="@+id/skip_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:text="跳过"
-        android:layout_marginRight="2dp"/>
+        android:layout_marginRight="2dp"/>-->
 
 
 </FrameLayout>
