@@ -242,6 +242,16 @@ public class NoteEditActivity extends AppCompatActivity implements OnClickListen
             }
         });
 
+        //添加一键删除的功能键
+        Button clearButton = findViewById(R.id.clearButton); // 假设你的清屏按钮的 id 是 "clearButton"
+        clearButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                editText.setText(""); // 清空文本内容
+            }
+        });
+
+
     }
     private String removeImagesAndLinks(String text) {
         // 剔除<img>标签
@@ -390,17 +400,25 @@ public class NoteEditActivity extends AppCompatActivity implements OnClickListen
             NotesDatabaseHelper dbhelper = new NotesDatabaseHelper(this);
             List<String> list = dbhelper.dosearch(querystring);
 
-            // 打印查询结果
-            for (String result : list) {
-                System.out.println(result);
+            //完善判断逻辑，减少异常处理状态
+            if(list.isEmpty()){
+                Toast.makeText(NoteEditActivity.this, "搜索结果为空", Toast.LENGTH_SHORT).show();
+                return false;
             }
-            // 创建包含查询结果的Intent
-            Intent showResultIntent = new Intent(NoteEditActivity.this, ShowResultActivity.class);
-            showResultIntent.putStringArrayListExtra("searchResult", new ArrayList<>(list));
+            else {
+                // 打印查询结果
+                for (String result : list) {
+                    System.out.println(result);
+                }
 
-            // 启动ShowResultActivity来展示查询结果
-            startActivity(showResultIntent);
-            return false;
+                // 创建包含查询结果的Intent
+                Intent showResultIntent = new Intent(NoteEditActivity.this, ShowResultActivity.class);
+                showResultIntent.putStringArrayListExtra("searchResult", new ArrayList<>(list));
+
+                // 启动ShowResultActivity来展示查询结果
+                startActivity(showResultIntent);
+                return false;
+            }
         }
         else {
             Log.e(TAG, "Intent not specified action, should not support");
@@ -449,13 +467,14 @@ public class NoteEditActivity extends AppCompatActivity implements OnClickListen
     }
 
 
-
+    //设置闹钟提醒
     private void showAlertHeader() {
         if (mWorkingNote.hasClockAlert()) {
             long time = System.currentTimeMillis();
             if (time > mWorkingNote.getAlertDate()) {
                 mNoteHeaderHolder.tvAlertDate.setText(R.string.note_alert_expired);
-            } else {
+            }  //如果系统时间大于了闹钟设置的时间，那么闹钟失效
+            else {
                 mNoteHeaderHolder.tvAlertDate.setText(DateUtils.getRelativeTimeSpanString(
                         mWorkingNote.getAlertDate(), time, DateUtils.MINUTE_IN_MILLIS));
             }
@@ -580,6 +599,8 @@ public class NoteEditActivity extends AppCompatActivity implements OnClickListen
         if (!mWorkingNote.existInDatabase()) {
             saveNote();
         }
+        //在创建一个新的标签时，先在数据库中匹配
+        //如果不存在，那么先在数据库中存储
         outState.putLong(Intent.EXTRA_UID, mWorkingNote.getNoteId());
         Log.d(TAG, "Save working note id: " + mWorkingNote.getNoteId() + " onSaveInstanceState");
     }

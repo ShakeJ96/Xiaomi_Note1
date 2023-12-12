@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\androide\\xiaomi-notes--note1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w1240dp-v13\\values-w1240dp-v13.xml",
+            "outputFile": "D:\\Android\\Projects\\Notes1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w1240dp-v13\\values-w1240dp-v13.xml",
             "map": [
                 {
-                    "source": "D:\\androide\\xiaomi-notes--note1\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+                    "source": "D:\\Android\\Projects\\Notes1\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "1",
-                        "startOffsets": "14",
+                        "startOffsets": "13",
                         "endColumns": "55",
-                        "endOffsets": "68"
+                        "endOffsets": "67"
                     },
                     "to": {
                         "startLines": "2",

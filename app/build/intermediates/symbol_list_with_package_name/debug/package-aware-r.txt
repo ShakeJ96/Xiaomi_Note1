@@ -720,6 +720,7 @@ id center_vertical
 id character_count
 id checkbox
 id chronometer
+id clearButton
 id clip_horizontal
 id clip_vertical
 id collapseActionView

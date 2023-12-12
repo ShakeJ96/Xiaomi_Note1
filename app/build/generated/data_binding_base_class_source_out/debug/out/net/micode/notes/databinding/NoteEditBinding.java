@@ -30,6 +30,9 @@ public final class NoteEditBinding implements ViewBinding {
   public final Button buttonPlayAudio;
 
   @NonNull
+  public final Button clearButton;
+
+  @NonNull
   public final LinearLayout fontSizeSelector;
 
   @NonNull
@@ -114,9 +117,9 @@ public final class NoteEditBinding implements ViewBinding {
   public final TextView tvModifiedDate;
 
   private NoteEditBinding(@NonNull FrameLayout rootView, @NonNull ImageView btnSetBgColor,
-      @NonNull Button buttonPlayAudio, @NonNull LinearLayout fontSizeSelector,
-      @NonNull ImageView ivAlertIcon, @NonNull ImageView ivBgBlue,
-      @NonNull ImageView ivBgBlueSelect, @NonNull ImageView ivBgGreen,
+      @NonNull Button buttonPlayAudio, @NonNull Button clearButton,
+      @NonNull LinearLayout fontSizeSelector, @NonNull ImageView ivAlertIcon,
+      @NonNull ImageView ivBgBlue, @NonNull ImageView ivBgBlueSelect, @NonNull ImageView ivBgGreen,
       @NonNull ImageView ivBgGreenSelect, @NonNull ImageView ivBgRed,
       @NonNull ImageView ivBgRedSelect, @NonNull ImageView ivBgWhite,
       @NonNull ImageView ivBgWhiteSelect, @NonNull ImageView ivBgYellow,
@@ -131,6 +134,7 @@ public final class NoteEditBinding implements ViewBinding {
     this.rootView = rootView;
     this.btnSetBgColor = btnSetBgColor;
     this.buttonPlayAudio = buttonPlayAudio;
+    this.clearButton = clearButton;
     this.fontSizeSelector = fontSizeSelector;
     this.ivAlertIcon = ivAlertIcon;
     this.ivBgBlue = ivBgBlue;
@@ -197,6 +201,12 @@ public final class NoteEditBinding implements ViewBinding {
       id = R.id.button_play_audio;
       Button buttonPlayAudio = ViewBindings.findChildViewById(rootView, id);
       if (buttonPlayAudio == null) {
+        break missingId;
+      }
+
+      id = R.id.clearButton;
+      Button clearButton = ViewBindings.findChildViewById(rootView, id);
+      if (clearButton == null) {
         break missingId;
       }
 
@@ -369,11 +379,11 @@ public final class NoteEditBinding implements ViewBinding {
       }
 
       return new NoteEditBinding((FrameLayout) rootView, btnSetBgColor, buttonPlayAudio,
-          fontSizeSelector, ivAlertIcon, ivBgBlue, ivBgBlueSelect, ivBgGreen, ivBgGreenSelect,
-          ivBgRed, ivBgRedSelect, ivBgWhite, ivBgWhiteSelect, ivBgYellow, ivBgYellowSelect,
-          ivLargeSelect, ivMediumSelect, ivSmallSelect, ivSuperSelect, llFontLarge, llFontNormal,
-          llFontSmall, llFontSuper, noteBgColorSelector, noteEditList, noteEditView, noteTitle,
-          svNoteEdit, textNum, tvAlertDate, tvModifiedDate);
+          clearButton, fontSizeSelector, ivAlertIcon, ivBgBlue, ivBgBlueSelect, ivBgGreen,
+          ivBgGreenSelect, ivBgRed, ivBgRedSelect, ivBgWhite, ivBgWhiteSelect, ivBgYellow,
+          ivBgYellowSelect, ivLargeSelect, ivMediumSelect, ivSmallSelect, ivSuperSelect,
+          llFontLarge, llFontNormal, llFontSmall, llFontSuper, noteBgColorSelector, noteEditList,
+          noteEditView, noteTitle, svNoteEdit, textNum, tvAlertDate, tvModifiedDate);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

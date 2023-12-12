@@ -31,6 +31,8 @@ import net.micode.notes.data.Notes.NoteColumns;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 public class NotesDatabaseHelper extends SQLiteOpenHelper {
@@ -382,7 +384,10 @@ public class NotesDatabaseHelper extends SQLiteOpenHelper {
             {
                 String content = cursor.getString(cursor.getColumnIndex("content"));
 
-                results.add(content);
+                // 过滤包含特定字符串的[local]和[/local]部分
+                if(filterLocalContent(content, querystring)){
+                    results.add(content);
+                }
                 //打印测试
                 Log.i(TAG, content);
                 int id = cursor.getInt(cursor.getColumnIndex("_id")); // 获取便签 ID
@@ -390,11 +395,37 @@ public class NotesDatabaseHelper extends SQLiteOpenHelper {
                 Uri noteUri = ContentUris.withAppendedId(Notes.CONTENT_NOTE_URI, id);
                 Log.e(TAG, String.valueOf(noteUri));
                 //启动便签笔记编辑器页面
+                //这里启动的页面放在ShowReultActivity活动文件中去
 
             }
         }
         cursor.close();
         return results;
+    }
+    private boolean filterLocalContent(String content, String querystring) {
+        Pattern pattern = Pattern.compile("\\[local\\](.*?)\\[/local\\]");
+        Matcher matcher = pattern.matcher(content);
+
+        StringBuilder filteredContent = new StringBuilder();
+        int lastIndex = 0;
+        while (matcher.find()) {
+            String match = matcher.group(1); // 获取匹配到的文本内容
+            filteredContent.append(content, lastIndex, matcher.start()); // 添加匹配前的文本
+            lastIndex = matcher.end(); // 更新最后一个匹配结束的索引位置
+
+            if (match.contains(querystring)) {
+                return false;
+            }else{
+                filteredContent.append(match); // 添加不包含查询字符串的匹配文本
+            }
+        }
+
+        if (lastIndex < content.length()) {
+            filteredContent.append(content.substring(lastIndex)); // 添加剩余的文本内容
+        }
+        Log.e(TAG,filteredContent.toString());
+
+        return true;
     }
 
 }

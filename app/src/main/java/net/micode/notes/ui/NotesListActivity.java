@@ -28,14 +28,16 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
+import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
+import android.text.SpannableString;
 import android.text.TextUtils;
 import android.text.TextWatcher;
+import android.text.style.ForegroundColorSpan;
 import android.util.Log;
 import android.view.ActionMode;
 import android.view.ContextMenu;
@@ -63,15 +65,15 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import net.micode.notes.R;
+import net.micode.notes.data.DataFetch;
 import net.micode.notes.data.Notes;
 import net.micode.notes.data.Notes.NoteColumns;
-import net.micode.notes.data.DataFetch;
 import net.micode.notes.gtask.remote.GTaskSyncService;
 import net.micode.notes.model.WorkingNote;
 import net.micode.notes.tool.BackupUtils;
 import net.micode.notes.tool.DataUtils;
-import net.micode.notes.tool.ResourceParser;
 import net.micode.notes.tool.MD5Calc;
+import net.micode.notes.tool.ResourceParser;
 import net.micode.notes.ui.NotesListAdapter.AppWidgetAttribute;
 import net.micode.notes.widget.NoteWidgetProvider_2x;
 import net.micode.notes.widget.NoteWidgetProvider_4x;
@@ -80,10 +82,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.HashSet;
+import java.nio.charset.Charset;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.nio.charset.Charset;
+import java.util.HashSet;
 public class NotesListActivity extends AppCompatActivity implements OnClickListener, OnItemLongClickListener {
    //首页的背景图切换
     private int mode=-1;
@@ -286,6 +288,15 @@ public class NotesListActivity extends AppCompatActivity implements OnClickListe
             // Update dropdown menu
             String format = getResources().getString(R.string.menu_select_title, selectedCount);
             mDropDownMenu.setTitle(format);
+
+
+            // 改变选中后，目录字体的颜色
+            SpannableString spannableString = new SpannableString(format);
+            ForegroundColorSpan colorSpan = new ForegroundColorSpan(Color.WHITE);
+            spannableString.setSpan(colorSpan, 0, format.length(), SpannableString.SPAN_EXCLUSIVE_EXCLUSIVE);
+            //
+            mDropDownMenu.setTitle(spannableString);
+
             MenuItem item = mDropDownMenu.findItem(R.id.action_select_all);
             if (item != null) {
                 if (mNotesListAdapter.isAllSelected()) {
