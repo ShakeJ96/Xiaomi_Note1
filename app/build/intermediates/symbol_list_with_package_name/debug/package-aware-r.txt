@@ -772,6 +772,7 @@ id iv_large_select
 id iv_medium_select
 id iv_small_select
 id iv_super_select
+id join_password
 id left
 id line1
 id line3
@@ -785,6 +786,8 @@ id ll_font_super
 id menu_alert
 id menu_delete
 id menu_delete_remind
+id menu_export_doc
+id menu_export_png
 id menu_export_text
 id menu_font_size
 id menu_hutao
@@ -821,6 +824,7 @@ id notes_list
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id out_password
 id parentPanel
 id prefenerece_sync_status_textview
 id preference_sync_button
@@ -846,11 +850,11 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selection_menu
+id set_password
 id shortcut
 id showCustom
 id showHome
 id showTitle
-id skip_button
 id spacer
 id split_action_bar
 id src_atop
@@ -1038,6 +1042,7 @@ string hint_foler_name
 string info_note_enter_desktop
 string invalid_password
 string invalid_username
+string join_password
 string login_failed
 string menu_alert
 string menu_create_folder
@@ -1081,6 +1086,7 @@ string notealert_enter
 string notealert_ok
 string notelist_menu_new
 string notelist_string_info
+string out_password
 string preferences_account_summary
 string preferences_account_title
 string preferences_add_account
@@ -1108,6 +1114,7 @@ string search_hint
 string search_label
 string search_menu_title
 string search_setting_description
+string set_password
 string set_remind_time_message
 string status_bar_notification_info_overflow
 string success_sdcard_export

@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.viewbinding.ViewBinding;
 import android.viewbinding.ViewBindings;
-import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -27,15 +26,11 @@ public final class ActivitySplashBinding implements ViewBinding {
   @NonNull
   public final LinearLayout fullscreenContentControls;
 
-  @NonNull
-  public final Button skipButton;
-
   private ActivitySplashBinding(@NonNull FrameLayout rootView, @NonNull TextView fullscreenContent,
-      @NonNull LinearLayout fullscreenContentControls, @NonNull Button skipButton) {
+      @NonNull LinearLayout fullscreenContentControls) {
     this.rootView = rootView;
     this.fullscreenContent = fullscreenContent;
     this.fullscreenContentControls = fullscreenContentControls;
-    this.skipButton = skipButton;
   }
 
   @Override
@@ -77,14 +72,8 @@ public final class ActivitySplashBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.skip_button;
-      Button skipButton = ViewBindings.findChildViewById(rootView, id);
-      if (skipButton == null) {
-        break missingId;
-      }
-
       return new ActivitySplashBinding((FrameLayout) rootView, fullscreenContent,
-          fullscreenContentControls, skipButton);
+          fullscreenContentControls);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

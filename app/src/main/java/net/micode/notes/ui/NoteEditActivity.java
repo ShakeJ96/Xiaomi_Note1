@@ -30,6 +30,7 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.media.MediaPlayer;
 import android.net.Uri;
@@ -83,7 +84,9 @@ import net.micode.notes.ui.NoteEditText.OnTextViewChangeListener;
 import net.micode.notes.widget.NoteWidgetProvider_2x;
 import net.micode.notes.widget.NoteWidgetProvider_4x;
 
+import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.security.MessageDigest;
@@ -948,6 +951,16 @@ public class NoteEditActivity extends AppCompatActivity implements OnClickListen
                 break;
             }
 
+            // 导出为文件 png、word、txt
+            case R.id.menu_export_text:
+                saveAsTxtFile();
+                break;
+            case R.id.menu_export_png:
+                saveAsImageFile();
+                break;
+            case R.id.menu_export_doc:
+                saveAsWordFile();
+                break;
 
             default:
                 break;
@@ -1493,6 +1506,113 @@ public class NoteEditActivity extends AppCompatActivity implements OnClickListen
     //是否为媒体文件
     public boolean isMediaDocument(Uri uri) {
         return "com.android.providers.media.documents".equals(uri.getAuthority());
+    }
+
+    private void saveAsTxtFile() {
+        NoteEditText noteEditText = findViewById(R.id.note_edit_view);
+        Editable editable = noteEditText.getEditableText();
+        String noteText = editable.toString();
+        try {
+            // 创建文件名
+            String fileName = noteText.substring(0,3)+".txt";
+
+            // 保存到文件管理器的download目录中
+            File publicDirectory = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
+
+            if (publicDirectory != null) {
+                // 创建保存文件的完整路径
+                File file = new File(publicDirectory, fileName);
+
+                // 创建文件输出流
+                FileOutputStream outputStream = new FileOutputStream(file);
+
+                // 写入文本内容
+                outputStream.write(noteText.getBytes());
+
+                // 关闭文件输出流
+                outputStream.close();
+
+                // 获取保存文件的完整路径
+                String filePath = file.getAbsolutePath();
+                Toast.makeText(this, "成功保存到：" + filePath, Toast.LENGTH_SHORT).show();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+            Toast.makeText(this, "保存失败", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    private void saveAsImageFile() {
+        NoteEditText noteEditText = findViewById(R.id.note_edit_view);
+        Editable editable = noteEditText.getEditableText();
+        String noteText = editable.toString();
+        try {
+            // 创建文件名
+            String fileName = noteText.substring(0,3)+".png";
+
+            // 保存到文件管理器的download目录中
+            File publicDirectory = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
+
+            if (publicDirectory != null) {
+                // 创建保存文件的完整路径
+                File file = new File(publicDirectory, fileName);
+
+                // 创建Bitmap对象
+                Bitmap bitmap = Bitmap.createBitmap(noteEditText.getWidth(), noteEditText.getHeight(), Bitmap.Config.ARGB_8888);
+                Canvas canvas = new Canvas(bitmap);
+                noteEditText.draw(canvas);
+
+                // 创建文件输出流
+                FileOutputStream outputStream = new FileOutputStream(file);
+
+                // 将Bitmap保存为PNG格式的图片
+                bitmap.compress(Bitmap.CompressFormat.PNG, 100, outputStream);
+
+                // 关闭文件输出流0
+                outputStream.close();
+
+                // 获取保存文件的完整路径
+                String filePath = file.getAbsolutePath();
+                Toast.makeText(this, "成功保存到：" + filePath, Toast.LENGTH_SHORT).show();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+            Toast.makeText(this, "保存失败", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    private void saveAsWordFile() {
+        NoteEditText noteEditText = findViewById(R.id.note_edit_view);
+        Editable editable = noteEditText.getEditableText();
+        String noteText = editable.toString();
+        try {
+            // 创建文件名
+            String fileName = noteText.substring(0,3)+".doc";
+
+            // 保存到文件管理器的download目录中
+            File publicDirectory = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
+
+            if (publicDirectory != null) {
+                // 创建保存文件的完整路径
+                File file = new File(publicDirectory, fileName);
+
+                // 创建文件输出流
+                FileOutputStream outputStream = new FileOutputStream(file);
+
+                // 写入文本内容
+                outputStream.write(noteText.getBytes());
+
+                // 关闭文件输出流
+                outputStream.close();
+
+                // 获取保存文件的完整路径
+                String filePath = file.getAbsolutePath();
+                Toast.makeText(this, "成功保存到：" + filePath, Toast.LENGTH_SHORT).show();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+            Toast.makeText(this, "保存失败", Toast.LENGTH_SHORT).show();
+        }
     }
 
 
