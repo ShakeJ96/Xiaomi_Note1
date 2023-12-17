@@ -863,7 +863,7 @@ public class NoteEditActivity extends AppCompatActivity implements OnClickListen
                 // 检查笔记是否未被锁定
                 if (sharedPreferences.getBoolean("isLocked", false)) {
                     // 如果笔记未被锁定，弹出提示信息
-                    Toast.makeText(NoteEditActivity.this, "该笔记被锁定", Toast.LENGTH_SHORT).show();
+
                 } else {
                     // 如果笔记没有被锁定，弹出确认对话框
                     AlertDialog.Builder dialog = new AlertDialog.Builder(this);
